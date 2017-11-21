@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "extends": "standard",
+    "globals": {
+        "angular": false,
+        "WebSocket": false,
+        "THREE": false
+    },
+    "rules": {
+        "brace-style": [2, "stroustrup"],
+        "indent": ["error", 4],
+        "max-len": [2, {
+            "code": 120,
+            "ignoreUrls": true
+        }],
+        "no-invalid-this": 1,
+        "no-var": 0,
+        "no-redeclare": "warn",
+        "no-unused-vars": "warn",
+        "one-var": ["off", "always"],
+        "semi": [1, "always"]
+    }
+}
