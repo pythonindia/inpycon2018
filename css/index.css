@@ -87,6 +87,10 @@
     padding-right: 2em;
 }
 
+#navbar-dropdown {
+    color: #ffffff;
+}
+
 #navbar-buffer {
     min-height: 70px;
     height: 70px;
@@ -218,6 +222,12 @@
 
 @media (max-width:575px) {
     body {}
+    #navbar-dropdown {
+        display: flex !important;
+    }
+    #navbar-links {
+        display: none !important;
+    }
 }
 
 
@@ -225,6 +235,12 @@
 
 @media (min-width:576px) and (max-width:767px) {
     body {}
+    #navbar-dropdown {
+        display: flex !important;
+    }
+    #navbar-links {
+        display: none !important;
+    }
 }
 
 
@@ -232,6 +248,12 @@
 
 @media (min-width:768px) and (max-width:991px) {
     body {}
+    #navbar-dropdown {
+        display: none !important;
+    }
+    #navbar-links {
+        display: flex !important;
+    }
 }
 
 
@@ -239,6 +261,12 @@
 
 @media (min-width:992px) and (max-width:1199px) {
     body {}
+    #navbar-dropdown {
+        display: none !important;
+    }
+    #navbar-links {
+        display: flex !important;
+    }
 }
 
 
@@ -246,6 +274,12 @@
 
 @media (min-width:1200px) {
     body {}
+    #navbar-dropdown {
+        display: none !important;
+    }
+    #navbar-links {
+        display: flex !important;
+    }
 }
 
 
@@ -253,6 +287,12 @@
 
 @media (min-width:1200px) and (max-width:1600px) {
     body {}
+    #navbar-dropdown {
+        display: none !important;
+    }
+    #navbar-links {
+        display: flex !important;
+    }
 }
 
 
@@ -260,4 +300,10 @@
 
 @media (min-width:1600px) {
     body {}
+    #navbar-dropdown {
+        display: none !important;
+    }
+    #navbar-links {
+        display: flex !important;
+    }
 }

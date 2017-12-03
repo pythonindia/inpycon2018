@@ -234,6 +234,9 @@ a:active {
 
 @media (min-width:576px) and (max-width:767px) {
     body {}
+    .container {
+        max-width: 100%;
+    }
 }
 
 

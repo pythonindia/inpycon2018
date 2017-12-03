@@ -53,8 +53,8 @@
 <body>
 
     <div id="navbar" class="p-2 md-whiteframe-6dp">
-        <div id="navbar-inner" class="container d-flex flex-row">
-            <div id="navbar-brand">
+        <div id="navbar-inner" class="container d-flex flex-row flex">
+            <div id="navbar-brand" class="flex">
                 <a href="#">
                     <img id="navbar-brand-img" src="images/Nav_Header.png">
                 </a>
@@ -68,6 +68,15 @@
                 </div>
                 <div class="d-flex flex-column justify-content-center">
                     <span><a href="#">Speakers</a></span>
+                </div>
+            </div>
+
+            <div id="navbar-dropdown" class="d-flex flex-row align-content-center">
+                <i class="fa fa-fw fa-bars fa-2x" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown"></i>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Home</a>
+                    <a class="dropdown-item" href="#">Schedule</a>
+                    <a class="dropdown-item" href="#">Speakers</a>
                 </div>
             </div>
         </div>
@@ -87,7 +96,7 @@
 
     <div id="div-2" class="container-fluid my-5">
 
-        <div id="div-2-inner" class="container d-flex flex-row">
+        <div id="div-2-inner" class="container d-flex flex-row flex-wrap-reverse">
             <div class="m-4 d-flex flex flex-column">
                 <h2 class="small-caps center"> About PyCon 1 </h2>
                 <div class="heading-container">
@@ -105,7 +114,7 @@
                 <img src="http://via.placeholder.com/400x300">
             </div>
         </div>
-        <div id="div-2-inner" class="container d-flex flex-row">
+        <div id="div-2-inner" class="container d-flex flex-row flex-wrap">
             <div class="m-4 d-flex flex  flex-column">
                 <img src="http://via.placeholder.com/400x300">
             </div>
@@ -123,7 +132,7 @@
                 <button type="button" class="btn pycon-button center">Read More</button>
             </div>
         </div>
-        <div id="div-2-inner" class="container d-flex flex-row">
+        <div id="div-2-inner" class="container d-flex flex-row flex-wrap-reverse">
             <div class="m-4 d-flex flex flex-column">
                 <h2 class="small-caps center"> About PyCon 3 </h2>
                 <div class="heading-container">
