@@ -157,6 +157,10 @@
 
 #div-2-inner img {
     width: 100%;
+    min-width: 400px;
+}
+
+.about-text {
     min-width: 300px;
 }
 
@@ -235,6 +239,9 @@
     }
     #navbar-links {
         display: none !important;
+    }
+    #div-2-inner img {
+        min-width: 300px;
     }
 }
 
