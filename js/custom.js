@@ -11,8 +11,13 @@
 	//jQuery to collapse the navbar on scroll
 	$(window).scroll(function() {
 		if ($(".navbar").offset().top > 50) {
+			$(".navbar .container").css("width","1170px");
+			$("#logo").css("display","inline-block");
+			$("#logo").css("float","left");
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
 		} else {
+			$(".navbar .container").css("width","970px");
+			$("#logo").css("display","none");
 			$(".navbar-fixed-top").removeClass("top-nav-collapse");
 		}
 	});

@@ -3,7 +3,7 @@
         jTLine: function (options) {
             // ------------------------
             var defaults = {
-                eventsMinDistance: 60,
+                eventsMinDistance: 72,
                 callType: 'ajax',
                 url: '',
                 structureObj: [{}],
