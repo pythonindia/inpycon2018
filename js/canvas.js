@@ -124,8 +124,8 @@ function animate() {
 }
 window.onload = function () {
     'use strict';
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = document.getElementById('home').clientWidth;
+    canvas.height = document.getElementById('home').clientHeight;
     buildArray();
     animate();
 };
@@ -134,8 +134,8 @@ window.onload = function () {
 window.onresize = function () {
     'use strict';
     console.log("resize");
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = document.getElementById('home').clientWidth;
+    canvas.height = document.getElementById('home').clientHeight;
     //buildArray();
     animate();
 };
