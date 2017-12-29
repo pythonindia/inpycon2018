@@ -1056,9 +1056,7 @@ padding-left:90px;
 
  .pycon-venue h2,.pycon-venue h3{
 
-  width:74%;
-
-  margin: 0 auto;
+padding-left:50px !important;
 
   color: #4c4c4c;
 
@@ -1068,23 +1066,15 @@ padding-left:90px;
 
 }
 
-.pycon2018_sponser p{
+.pycon-venue p{
 
-    width: 74%;
-
-    margin: 0 auto;
+   padding-left:50px !important;
 
     color: #4c4c4c;
-
-    line-height: 37px;
-
-    font-weight: 500;
-
-    font-size: 20px;
+    font-weight: 500;    font-size: 20px;
 
   }
 
-.pycon2018_sponser{padding: 40px 0;}
 
 .pycon-spn h3{color: #513278;font-weight: 600;padding: 20px 0;}
 
@@ -1101,6 +1091,8 @@ padding-left:90px;
 }
 
 .pycon-tweets{
+  overflow:auto;
+overflow-x:hidden;
 
   background: #fff;
 
@@ -1138,7 +1130,9 @@ padding-left:90px;
 
 .pycon-venue{ 
 
-  background-image: url(../../img/venue.jpg);
+  background-image: url(../../img/venuebg.jpg);
+  background-size: cover;
+  min-height: 500px;
 
 }
 
@@ -1160,7 +1154,7 @@ padding-left:90px;
 
   color: #fff;
 
-  padding: 20px 0 100px 0;
+
 
 }
 
@@ -1693,4 +1687,10 @@ footer p {
 }
 #logo{
   display: none;
+}
+
+.fw-branding a{
+  display: none !important;
+  visibility: hidden !important;
+  color:#fff !important;
 }
