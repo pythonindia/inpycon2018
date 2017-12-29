@@ -28,11 +28,11 @@
 .button {
 font-size:16px;
 	min-width: 150px;
-	max-width: 250px;
+	max-width: 300px;
 	display: block;
 	font-weight:bold;
-	
-	padding: 1em 2em;
+	text-align:center;
+	padding: 0.75em 0.5em;
 	border: none;
 	background: none;
 	color: inherit;
