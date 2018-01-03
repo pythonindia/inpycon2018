@@ -1672,6 +1672,20 @@ footer p {
 
 }
 
+
+.tenyears{
+    background:#ffffff url(../../img/10.png) top center no-repeat;
+    min-height:180px;
+}
+.tenyears p{
+color:#513278;
+font-family: 'Montserrat Alternates', sans-serif !important;
+padding-top:50px;
+}
+.tenyears p span{
+  color:#e23e89;
+  font-size:45px;
+}
 /*faq*/
 .pycon-faq{
   padding: 6px 0;
@@ -1693,4 +1707,30 @@ footer p {
   display: none !important;
   visibility: hidden !important;
   color:#fff !important;
+}
+
+.border1{
+  position: absolute;
+    left: 70px;
+    top: 15px;
+}
+.border2{
+   
+    position: absolute;   
+    top: 10px;
+    left:50px;
+}
+
+.border2a,.sponsora{
+ width: 70%;
+}
+.border2b,.sponsorb{
+   width: 60%;
+}
+.border2c,.sponsorc{
+   width: 50%;
+}
+
+.sponsora,.sponsorb,.sponsorc{
+  margin-top:30px;
 }
