@@ -1734,3 +1734,8 @@ padding-top:50px;
 .sponsora,.sponsorb,.sponsorc{
   margin-top:30px;
 }
+
+.pycon-faq ul{
+    padding-left: 0;
+    margin-left: 0;
+}
