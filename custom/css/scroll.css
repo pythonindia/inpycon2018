@@ -203,14 +203,18 @@
 }
 
 .jtline .events-content {
-    width:800px;
-    margin:0 auto;
+  width: 90%;
+  height: auto !important;
+  margin:0 auto;
   position: relative;
   height: 500px;
   overflow: hidden;
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
+}
+.jtline .events-content ol {
+  padding: 0 40px;
 }
 .jtline .events-content li {
   position: absolute;
