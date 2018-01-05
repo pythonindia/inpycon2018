@@ -674,11 +674,27 @@ padding-bottom:80px;
 }
 
 .pycon-card h3{
-
   font-weight: 600;
+  padding: 20px 0;
+}
 
-  padding: 35px 0;
+.pycon-card p {
+  margin: 0;
+}
 
+.jtline .events-content .pycon-card p.yearly-description {
+  margin-top: 10px;
+  line-height: 1.5 !important;
+}
+
+.jtline .events-content .pycon-card p.yearly-speakers {
+  padding-left: 10px;
+  line-height: 1.5 !important;
+}
+
+.pycon-card p.link {
+  text-align: right;
+  margin-top: 20px;
 }
 
 .pycon-card .col-md-6{padding : 0;}
@@ -1576,10 +1592,15 @@ footer p {
 
     }
 
-  .pycon-card img{
+  .pycon-card img.collage-img{
 
    /* width: auto !important;*/
+   border-radius: 15px 0px 0px 0px !important;
 
+  }
+
+  .hide-sm {
+    display: none;
   }
 
   .pycon2018_sponser p{width: 95%;}
@@ -1762,6 +1783,7 @@ ul.faq-answer li a:hover{
     position: relative;
     bottom: 10px;
     right: 0;
+    margin-top: 15px;
     width: 85%;
   }
 }
