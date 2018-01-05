@@ -25,7 +25,7 @@
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 
-		$('.navbar-nav li a').on('click', function(event) {
+		$('.nav li a').on('click', function(event) {
 
 			if( $(this).is('a:not([href^="#"])') || $(this).attr("href") == '#' ) {
 	     return;
