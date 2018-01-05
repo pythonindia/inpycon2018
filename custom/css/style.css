@@ -1734,3 +1734,33 @@ padding-top:50px;
 .sponsora,.sponsorb,.sponsorc{
   margin-top:30px;
 }
+
+.pycon-faq ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ol, #faq-answer {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    counter-reset: foo;
+    display: table;
+    list-style:none;
+}
+
+#faq-answer {
+    list-style: none;
+    counter-increment: foo;
+    display: table-row;
+    font-weight: normal;
+}
+
+#faq-answer::before {
+    content: "A. ";
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em;
+}
