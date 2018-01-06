@@ -1711,6 +1711,14 @@ ul.faq-answer li:not(:first-child) {
   display: block;
 }
 
+ul.faq-answer li a{
+  color: #337ab7;
+}
+
+ul.faq-answer li a:hover{
+  color: #23527c;
+}
+
 .fw-branding a{
   display: none !important;
   visibility: hidden !important;
