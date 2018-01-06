@@ -292,6 +292,11 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .jtline .events-content ol {
+    padding: 0;
+  }
+}
 @-webkit-keyframes cd-enter-right {
   0% {
     opacity: 0;

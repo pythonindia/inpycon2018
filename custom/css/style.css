@@ -1196,12 +1196,26 @@ footer p {
 
 	color: #717171;
 
-  font-size: 13px;
+  font-size: 15px;
 
   padding: 25px 0;
 
 }
 
+footer p.pycon2018-copyright {
+  padding: 0;
+  font-size: 13px;
+}
+
+footer a {
+  color: #8e8e8e;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #8e8e8e;
+  text-decoration: underline;
+}
 
 
 .credits, .credits a {
