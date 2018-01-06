@@ -1734,3 +1734,18 @@ padding-top:50px;
 .sponsora,.sponsorb,.sponsorc{
   margin-top:30px;
 }
+
+.pycon-card .more-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .pycon-card .more-button {
+    position: relative;
+    bottom: 10px;
+    right: 0;
+    width: 85%;
+  }
+}
