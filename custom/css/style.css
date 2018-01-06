@@ -1703,6 +1703,14 @@ padding-top:50px;
   display: none;
 }
 
+ul.faq-answer {
+  list-style: upper-alpha;
+}
+
+ul.faq-answer li:not(:first-child) {
+  display: block;
+}
+
 .fw-branding a{
   display: none !important;
   visibility: hidden !important;
