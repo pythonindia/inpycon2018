@@ -114,7 +114,7 @@ var contentArray = [
     "link": "https://in.pycon.org/2016/"
   },
   {
-    "image": "img/timeline/PyCon2016.jpg",
+    "image": "img/timeline/PyCon2017.jpg",
     "taskTitle": "PyCon India 2017",
     "title": "9th Year of PyCon India",
     "date": "2nd - 5th November, 2017",
