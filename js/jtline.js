@@ -227,6 +227,7 @@
                 }
 
                 timelineComponents['eventsWrapper'].css('width', totalWidth + 'px');
+                updateOlderEvents(timelineComponents['eventsWrapper'].find('a.selected'));
                 updateFilling(timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents['fillingLine'], totalWidth);
                 updateTimelinePosition('next', timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents);
 
@@ -420,14 +421,18 @@
                 getFetchedData(dataCollection);
 
                 var isSelectedPoint;
-                // debugger;
+                var isSelectedAttrProvided = dataCollection.find(
+                        data => data[options.map.isSelected] === "true"
+                    );
+
+                if (!isSelectedAttrProvided) {
+                    dataCollection[0][options.map.isSelected] = "true";
+                }
+                
                 //------------------------------------------               
                 for (var i = 0; i < dataCollection.length; i++) {
 
                     isSelectedPoint = dataCollection[i][options.map.isSelected];
-                    console.log(isSelectedPoint);
-                    //if (i == 0)
-                      //  isSelectedPoint = "true";
 
                     point = {
                         "isSelected": isSelectedPoint,
