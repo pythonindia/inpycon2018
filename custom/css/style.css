@@ -1674,7 +1674,7 @@ footer p {
 
 
 .tenyears{
-    background:#ffffff url(../../img/10.png) top center no-repeat;
+    background:url(../../img/10.png) top center no-repeat;
     min-height:180px;
 }
 .tenyears p{
