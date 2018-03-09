@@ -118,7 +118,7 @@ var contentArray = [
     "taskTitle": "PyCon India 2017",
     "title": "9th Year of PyCon India",
     "date": "2nd - 5th November, 2017",
-    "location": "Indian Institute of Science, Bangalore",
+    "location": "Shaheed Sukhdev College Of Business Studies, New Delhi",
     "speakers": "&#9679; Noufal Ibrahim <br>&#9679; Elizabeth Ferrao <br>&#9679; Peter Wang",
     "description": "PyCon India, the premier conference in India on using and \
                     developing the Python programming language is conducted \
