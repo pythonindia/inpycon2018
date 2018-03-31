@@ -130,8 +130,8 @@ var contentArray = [
     "image": "img/card-image.png",
     "taskTitle": "PyCon India 2018",
     "title": "10th Year of PyCon India",
-    "date": "22nd - 26th August 2018",
-    "location": "Bengaluru International Exhibition Centre, Bengaluru",
+    "date": "5th - 9th October 2018",
+    "location": "Hyderabad International Convention Centre, Hyderabad",
     "speakers": "",
     "description": "PyCon India, the premier conference in India on using and \
                     developing the Python programming language is conducted \
