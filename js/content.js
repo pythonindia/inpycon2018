@@ -127,7 +127,7 @@ var contentArray = [
     "link": "https://in.pycon.org/2017/"
   },
   {
-    "image": "img/card-image.png",
+    "image": "img/card-image.jpg", 
     "taskTitle": "PyCon India 2018",
     "title": "10th Year of PyCon India",
     "date": "5th - 9th October 2018",
