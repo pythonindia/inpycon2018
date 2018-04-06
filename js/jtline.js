@@ -3,7 +3,7 @@
         jTLine: function (options) {
             // ------------------------
             var defaults = {
-                eventsMinDistance: 60,
+                eventsMinDistance: 72,
                 callType: 'ajax',
                 url: '',
                 structureObj: [{}],
@@ -153,6 +153,7 @@
                 setTransformValue(eventsWrapper, 'translateX', value + 'px');
                 //update navigation arrows visibility
                 (value == 0) ? timelineComponents['timelineNavigation'].find('.prev').addClass('inactive') : timelineComponents['timelineNavigation'].find('.prev').removeClass('inactive');
+     
                 (value == totWidth) ? timelineComponents['timelineNavigation'].find('.next').addClass('inactive') : timelineComponents['timelineNavigation'].find('.next').removeClass('inactive');
             }
 
@@ -226,6 +227,7 @@
                 }
 
                 timelineComponents['eventsWrapper'].css('width', totalWidth + 'px');
+                updateOlderEvents(timelineComponents['eventsWrapper'].find('a.selected'));
                 updateFilling(timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents['fillingLine'], totalWidth);
                 updateTimelinePosition('next', timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents);
 
@@ -419,13 +421,18 @@
                 getFetchedData(dataCollection);
 
                 var isSelectedPoint;
-                // debugger;
+                var isSelectedAttrProvided = dataCollection.find(
+                        data => data[options.map.isSelected] === "true"
+                    );
+
+                if (!isSelectedAttrProvided) {
+                    dataCollection[0][options.map.isSelected] = "true";
+                }
+                
                 //------------------------------------------               
                 for (var i = 0; i < dataCollection.length; i++) {
 
                     isSelectedPoint = dataCollection[i][options.map.isSelected];
-                    if (i == 0)
-                        isSelectedPoint = "true";
 
                     point = {
                         "isSelected": isSelectedPoint,
@@ -455,7 +462,7 @@
                 var $container = $(mainObject);
 
                 var $sectionStart = '<section id="jtlinesection" class="jtline">';
-                var $timeline = '<div class="timeline"><div class="events-wrapper"><div class="events"><ol>' + $liTimeLineCollection + '</ol><span class="filling-line" aria-hidden="true"></span></div></div><ul class="cd-timeline-navigation"><li><a href="#0" class="prev inactive">Prev</a></li><li><a href="#0" class="next">Next</a></li></ul></div>';
+                var $timeline = '<div class="timeline"><div class="events-wrapper"><div class="events"><ol>' + $liTimeLineCollection + '</ol><span class="filling-line" aria-hidden="true"></span></div></div><ul class="cd-timeline-navigation"><li><a href="#0" class="prev active">Prev</a></li><li><a href="#0" class="next inactive">Next</a></li></ul></div>';
                 var $eventsContent = '<div class="events-content"><ol>' + $liEventContentCollection + '</ol></div>';
                 var $sectionEnd = '</section>';
 
