@@ -1818,6 +1818,23 @@ ul.faq-answer li a:hover{
   padding-right: 5px;
 }
 
+.centered-modal.in {
+  display: flex !important;
+}
+
+.centered-modal .modal-dialog {
+  margin: auto;
+}
+
+.modal-backdrop {
+  z-index: 1040 !important;
+}
+
+.modal-dialog {
+  margin: 2px auto;
+  z-index: 1100 !important;
+}
+
 @media screen and (max-width: 767px){
   .pycon-card .more-button {
     position: relative;
