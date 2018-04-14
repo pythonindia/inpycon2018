@@ -1792,6 +1792,32 @@ ul.faq-answer li a:hover{
   right: 10px;
 }
 
+.pycon-volunteer ul {
+  font-size: 16px;
+  list-style: disc;
+}
+
+.pycon-volunteer a {
+  color: #337ab7;
+}
+
+.pycon-volunteer a:hover {
+  color: #23527c;
+}
+
+.pycon-volunteer .btn {
+  background: #7289da;
+  border-radius: 4px;
+}
+
+.discord-button-text {
+  position: relative;
+  top: -15px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
 @media screen and (max-width: 767px){
   .pycon-card .more-button {
     position: relative;
