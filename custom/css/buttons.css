@@ -1321,8 +1321,10 @@ font-size:16px;
 
 /* Quidel */
 .button--quidel {
-	background: #513278;
-	color: #513278;
+	/*background: #513278;
+	color: #513278;*/
+	background: #86828c;
+	color: #86828c;
 	overflow: hidden;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
@@ -1351,7 +1353,7 @@ font-size:16px;
 	background: #e23e89;
 }
 .button--quidel::before {
-	background: #e23e89;
+	/*background: #e23e89;*/
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1379,7 +1381,8 @@ font-size:16px;
 	padding-left: 0.35em;
 }
 .button--quidel:hover {
-	color: #37474f;
+	/*color: #37474f;*/
+	color: #86828c;
 }
 .button--quidel.button--inverted:hover {
 	color: #7986cb;
@@ -1490,4 +1493,14 @@ font-size:16px;
 	background: #3f51b5;
 	border-color: #3f51b5;
 	color: #fff;
+}
+
+.button-margin {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.button-inner-text {
+	font-size: 0.8em;
+	color: #dab96e;
 }
