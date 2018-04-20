@@ -1,17 +1,20 @@
 # Contribution Guidelines
 
-Thanks for you interest in contributing to PyCon India 2018 website. Your valuable contribution is much appreciated.
+Thanks for your interest in contributing to PyCon India 2018 website. Your valuable contribution is much appreciated.
 
 The following is a set of guidelines for contributing to PyCon India 2018.
 
 ## How Can I Help?
 
-Start looking through the Issues and watch out for any issues with the bug label. Issues marked with this label haven't been assigned to anyone yet and we would love for you to work on them.
+Start looking through the issues and watch out for any issues with the `bug` or `help wanted` labels. Issues marked with these labels haven't been assigned to anyone yet and we would love for you to work on them.
+
+### Request a feature
+
+If you think there is a cool feature you would like to add please create an issue for that and we will assign that to you if the feature looks good to add.
 
 ## Reporting bugs
 
-If you find any bugs, it would be great if you would let us know so we can look into it. You can do so by creating an issue. If you don't know how to create an issue, please follow [these instructions](https://help.github.com/articles/creating-an-issue/). Screenshots and notes for how you encountered the bug are really helpful when reporting bugs! 
-
+If you find any bugs, it would be great if you would let us know so we can look into it. You can do so by creating an issue. If you don't know how to create an issue, please follow [these instructions](https://help.github.com/articles/creating-an-issue/). Screenshots and notes for how you encountered the bug are really helpful when reporting bugs!
 
 ## Creating Pull Requests
 
