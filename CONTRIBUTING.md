@@ -20,6 +20,8 @@ If you find any bugs, it would be great if you would let us know so we can look 
 
 After you've created a patch that fixes an issue, please submit a pull request for it. Mention **@pythonindia/pycon-2018-team** to get the Pull Request reviewed. If you're not sure how to create a pull request, please follow [these instructions](https://help.github.com/articles/creating-a-pull-request/). In general we'd like to ask you to please target the master branch with your pull requests.
 
+We recommend creating a new branch for each feature task/bug since it makes easier to edit commits in future if needed.
+
 ## Reviewing Issues and Pull Requests
 
 You're welcome to review issues and pull requests, provide feedback, and answer questions. Please remember to be friendly and respectful when commenting on issues or pull requests, and always follow our [Code of Conduct](https://in.pycon.org/2018/coc.html). It's okay for people to make mistakes and ask questions! 

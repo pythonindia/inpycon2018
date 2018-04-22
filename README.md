@@ -1,4 +1,5 @@
 # PyCon India 2018 Website
+This is the official website of PyCon India 2017, the Premier Conference in India on using and developing the Python Programming Language.
 
 The PyCon India 2018 Website is a website purely made of html, css and javascript/jQuery
 
@@ -8,7 +9,7 @@ Please read our [Contribution Guidelines](CONTRIBUTING.md) to Contribute to the 
 
 ## Code of Conduct
 
-Please read and abide by our [Code of Coduct](https://in.pycon.org/2018/coc.html)
+As a contributor please follow the [Code of Conduct](CODE_OF_CONDUCT.md) to keep the community open and inclusive. Also please read and follow the [PyCon India Code of Coduct](https://in.pycon.org/2018/coc.html) which governs the overall Conduct for the Conference.
 
 ## License
 
