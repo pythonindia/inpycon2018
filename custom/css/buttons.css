@@ -1392,6 +1392,21 @@ font-size:16px;
 	transform: translate3d(0, 0, 0);
 }
 
+.button--quidel.cfp {
+	background: #513278;
+	color: #513278;
+}
+
+.button--quidel.cfp::before {
+	background: #e23e89;
+}
+
+.button--quidel.cfp:hover {
+	color: #37474f;
+}
+
+
+
 /* Sacnite */
 .button.button--sacnite {
 	width: 70px;
@@ -1503,4 +1518,8 @@ font-size:16px;
 .button-inner-text {
 	font-size: 0.8em;
 	color: #dab96e;
+}
+
+.button-inner-text.cfp {
+	color: #00aa00;
 }
