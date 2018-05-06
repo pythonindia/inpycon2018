@@ -1,8 +1,14 @@
+language: generic
+
+script:
+  - echo "Deploying on gh-pages"
+
 deploy:
   provider: pages
   local_dir: .
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
   keep-history: true
+  target-branch: gh-pages
+  github-token: $GITHUB_TOKEN
   on:
     branch: master
