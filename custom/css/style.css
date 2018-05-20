@@ -1821,16 +1821,19 @@ ul.faq-answer li a:hover{
 /* #region share bar ribbon */
 .share-bar-ribbon {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 40%;
   padding: 10px;
-  background: rgba(27, 27, 27, 0.8);
+  background: rgba(27, 27, 27, 0.4);
 }
 .share-bar-ribbon .list-vertical {
   padding-left: 0;
 }
 .share-bar-ribbon .list-vertical__label {
   color: #fff;
+}
+.share-bar-ribbon .list-vertical__icon:hover {
+  transform: scale(1.2);
 }
 .share-bar-ribbon .list-vertical li {
   margin: 10px auto;
