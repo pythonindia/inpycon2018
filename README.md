@@ -1,5 +1,5 @@
 # PyCon India 2018 Website
-This is the official website of PyCon India 2017, the Premier Conference in India on using and developing the Python Programming Language.
+This is the official website of PyCon India 2018, the Premier Conference in India on using and developing the Python Programming Language.
 
 The PyCon India 2018 Website is a website purely made of html, css and javascript/jQuery
 
