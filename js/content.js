@@ -58,7 +58,7 @@ var contentArray = [
     "location": "Christ University Campus, Bangalore",
     "speakers": "&#9679; David Mertz <br>&#9679; Jacob Kaplan-Moss",
     "description": "Pycon India 2009 is a community conference by the Python developer community. \
-                    A purely volunteer effort, it is being hosted for the first time in India, and \
+                    A purely volunteer effort, it is being hosted for the fourth time in India, and \
                     will attract some of the best Python developers in India and abroad.",
     "link": "https://in.pycon.org/2012/"
   },
