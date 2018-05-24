@@ -1827,10 +1827,12 @@ ul.faq-answer li a:hover{
   background: rgba(27, 27, 27, 0.4);
 }
 .share-bar-ribbon .list-vertical {
-  padding-left: 0;
+  padding: 0 8px;
+  margin-bottom: 0;
 }
 .share-bar-ribbon .list-vertical__label {
   color: #fff;
+  font-weight: 600;
 }
 .share-bar-ribbon .list-vertical__icon:hover {
   transform: scale(1.2);
