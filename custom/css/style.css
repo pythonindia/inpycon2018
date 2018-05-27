@@ -1818,6 +1818,30 @@ ul.faq-answer li a:hover{
   padding-right: 5px;
 }
 
+/* #region share bar ribbon */
+.share-bar-ribbon {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  padding: 10px;
+  background: rgba(27, 27, 27, 0.4);
+}
+.share-bar-ribbon .list-vertical {
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+.share-bar-ribbon .list-vertical__label {
+  color: #fff;
+  font-weight: 600;
+}
+.share-bar-ribbon .list-vertical__icon:hover {
+  transform: scale(1.2);
+}
+.share-bar-ribbon .list-vertical li {
+  margin: 10px auto;
+}
+/* #endregion share bar ribbon */
+
 @media screen and (max-width: 767px){
   .pycon-card .more-button {
     position: relative;
@@ -1826,6 +1850,12 @@ ul.faq-answer li a:hover{
     margin-top: 15px;
     width: 85%;
   }
+
+  /* no display for mobile - share bar ribbon */
+  .share-bar-ribbon{
+    display: none;
+  }
+
 }
 
 .icon:hover {
