@@ -1856,6 +1856,11 @@ ul.faq-answer li a:hover{
     display: none;
   }
 
+  /* hiding speaker, journey headings for mobile */
+  .pycon-speaker, .pycon-journey{
+    display: none;
+  }
+
 }
 
 .icon:hover {
