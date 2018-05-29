@@ -791,7 +791,7 @@ padding:10px 1px;
      font-size:15px;
      height:100px;
 }
-.pycon2018_panel .table>tbody>tr>td.time{
+.pycon2018_panel .table>tbody>tr>td.time, td .time{
     font-weight:bold;
      color:#e23e89;
 }
