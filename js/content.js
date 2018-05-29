@@ -20,7 +20,7 @@ var contentArray = [
     "title": "1st Year of PyCon India",
     "date": "26th and 27th September, 2009",
     "location": "Indian Institute of Science, Bangalore",
-    "speakers": "",
+    "speakers": "&#9679; Prabhu Ramachandran",
     "description": "Pycon India 2009 is a community conference by the Python developer community. \
                     A purely volunteer effort, it is being hosted for the first time in India, and \
                     will attract some of the best Python developers in India and abroad.",
