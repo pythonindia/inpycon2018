@@ -1819,20 +1819,36 @@ ul.faq-answer li a:hover{
 }
 
 /* #region share bar ribbon */
+.share-bar-ribbon--light{
+  background: rgba(255, 255, 255, 0.6);
+}
+.share-bar-ribbon--dark{
+  background: rgba(84, 50, 120, 0.6);
+}
+.share-bar-ribbon--light .list-vertical__label{
+  color: #000;
+}
+.share-bar-ribbon--dark .list-vertical__label{
+  color: #fff;
+}
+
 .share-bar-ribbon {
   position: fixed;
   left: 0;
   top: 40%;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.7);
   z-index: 100;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 .share-bar-ribbon .list-vertical {
   padding: 0 8px;
   margin-bottom: 0;
 }
 .share-bar-ribbon .list-vertical__label {
-  color: #000;
   font-weight: 600;
 }
 .share-bar-ribbon .list-vertical__icon:hover {
