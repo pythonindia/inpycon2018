@@ -564,13 +564,13 @@ a:focus {
 
 
 
-.pycon2018_spe h3, .pycon2018_spe h5{
+.pycon2018_spe h3, .pycon2018_spe h5, h6{
 
   font-family: 'Roboto', sans-serif;
 
 }
 
-.pycon2018_spe h5{color: #989898}
+.pycon2018_spe h5, h6{color: #989898}
 
 .pycon2018-section-heading h2{
 
@@ -1762,8 +1762,8 @@ ul.faq-answer li a:hover{
 
 .border1{
   position: absolute;
-    left: 70px;
-    top: 15px;
+    left: 60px;
+    top: 10px;
 }
 .border2{
 
