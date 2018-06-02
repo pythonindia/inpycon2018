@@ -1823,7 +1823,7 @@ ul.faq-answer li a:hover{
   background: rgba(255, 255, 255, 0.6);
 }
 .share-bar-ribbon--dark{
-  background: rgba(84, 50, 120, 0.6);
+  background: rgba(84, 50, 120, 0.4);
 }
 .share-bar-ribbon--light .list-vertical__label{
   color: #000;
