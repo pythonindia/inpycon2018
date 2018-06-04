@@ -1510,3 +1510,7 @@ font-size:16px;
 .coming-soon-text {
 	color: #efb610;
 }
+
+.sold-out-text {
+   color: gray;
+}
