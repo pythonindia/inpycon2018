@@ -1,0 +1,38 @@
+
+
+.pycon-que {
+    background-color: #1b1b1b;
+    color:#fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 4px 4px 0px 0px;
+    transition: 0.2s;
+    padding: 10px 5px 5px 10px;
+}
+
+.active, .pycon-que:hover {
+    color: #e23e89;
+}
+
+.panel {
+    border-radius: 0px 0px 4px 4px;
+    padding-right: 25px;
+    text-align: justify;
+    background-color: #3b3b3b;
+    max-height: 0;
+    overflow: hidden;
+    color:#fff;
+    transition: max-height 0.2s ease-out;
+}
+
+.faq-answer{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.faq-answer li a{
+    color:  #e23e89 !important;
+}

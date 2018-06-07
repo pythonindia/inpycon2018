@@ -158,7 +158,7 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu {
 
-	  border-radius: 0;	
+	  border-radius: 0;
 
 }
 
@@ -448,7 +448,7 @@ a:focus {
 
      padding-bottom:60px;
 
-    
+
 
 
 
@@ -564,13 +564,13 @@ a:focus {
 
 
 
-.pycon2018_spe h3, .pycon2018_spe h5{
+.pycon2018_spe h3, .pycon2018_spe h5, h6{
 
   font-family: 'Roboto', sans-serif;
 
 }
 
-.pycon2018_spe h5{color: #989898}
+.pycon2018_spe h5, h6{color: #989898}
 
 .pycon2018-section-heading h2{
 
@@ -603,7 +603,7 @@ position: relative;
     margin-top:80px;
 
 padding-bottom:80px;
-    
+
 
 }
 
@@ -783,7 +783,7 @@ padding:10px 1px;
     color:#e23e89;
     font-weight:600;
      font-family: 'Roboto', sans-serif;
-   
+
 }
 .pycon2018_panel .table>tbody>tr>td{
     border-top:none;
@@ -791,7 +791,7 @@ padding:10px 1px;
      font-size:15px;
      height:100px;
 }
-.pycon2018_panel .table>tbody>tr>td.time{
+.pycon2018_panel .table>tbody>tr>td.time, td .time{
     font-weight:bold;
      color:#e23e89;
 }
@@ -822,7 +822,7 @@ padding:10px 1px;
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
     border:none;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus,
 
 .nav-tabs>li.active>a:hover{color: #e23e89 !important;}
 
@@ -1124,7 +1124,7 @@ overflow-x:hidden;
 
 }
 
-.pycon-tweets img, .pycon-ran{ 
+.pycon-tweets img, .pycon-ran{
 
   position: absolute;
 
@@ -1144,7 +1144,7 @@ overflow-x:hidden;
 
 
 
-.pycon-venue{ 
+.pycon-venue{
 
   background-image: url(../../img/venuebg.jpg);
   background-size: cover;
@@ -1270,13 +1270,13 @@ footer a:focus {
 
     padding: 7px 16px;
 
-    
+
 
     border-radius: 50%;
 
     font-size: 40px;
 
-    
+
 
     background: 0 0;
 
@@ -1336,7 +1336,7 @@ footer a:focus {
 
 
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
 
     0 {
 
@@ -1370,7 +1370,7 @@ footer a:focus {
 
 
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
 
     0 {
 
@@ -1512,7 +1512,7 @@ footer a:focus {
 
 	}
 
-	
+
 
 	/*.navbar.navbar-custom.navbar-fixed-top {
 
@@ -1520,7 +1520,7 @@ footer a:focus {
 
 	}*/
 
-	
+
 
 	.tp-banner-container {
 
@@ -1564,7 +1564,7 @@ footer a:focus {
 
   }
 
-	
+
 
 }
 
@@ -1762,12 +1762,12 @@ ul.faq-answer li a:hover{
 
 .border1{
   position: absolute;
-    left: 70px;
-    top: 15px;
+    left: 50px;
+    top: 10px;
 }
 .border2{
-   
-    position: absolute;   
+
+    position: absolute;
     top: 10px;
     left:50px;
 }
@@ -1792,6 +1792,73 @@ ul.faq-answer li a:hover{
   right: 10px;
 }
 
+.pycon-volunteer ul {
+  font-size: 16px;
+  list-style: disc;
+}
+
+.pycon-volunteer a {
+  color: #337ab7;
+}
+
+.pycon-volunteer a:hover {
+  color: #23527c;
+}
+
+.pycon-volunteer .btn {
+  background: #7289da;
+  border-radius: 4px;
+}
+
+.discord-button-text {
+  position: relative;
+  top: -15px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+/* #region share bar ribbon */
+.share-bar-ribbon--light{
+  background: rgba(255, 255, 255, 0.6);
+}
+.share-bar-ribbon--dark{
+  background: rgba(84, 50, 120, 0.4);
+}
+.share-bar-ribbon--light .list-vertical__label{
+  color: #000;
+}
+.share-bar-ribbon--dark .list-vertical__label{
+  color: #fff;
+}
+
+.share-bar-ribbon {
+  position: fixed;
+  left: 0;
+  top: 40%;
+  padding: 10px;
+  z-index: 100;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+.share-bar-ribbon .list-vertical {
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+.share-bar-ribbon .list-vertical__label {
+  font-weight: 600;
+}
+.share-bar-ribbon .list-vertical__icon:hover {
+  transform: scale(1.2);
+}
+.share-bar-ribbon .list-vertical li {
+  margin: 10px auto;
+}
+/* #endregion share bar ribbon */
+
 @media screen and (max-width: 767px){
   .pycon-card .more-button {
     position: relative;
@@ -1800,4 +1867,20 @@ ul.faq-answer li a:hover{
     margin-top: 15px;
     width: 85%;
   }
+
+  /* no display for mobile - share bar ribbon */
+  .share-bar-ribbon{
+    display: none;
+  }
+
+  /* hiding speaker, journey headings for mobile */
+  .pycon-speaker, .pycon-journey{
+    display: none;
+  }
+
+}
+
+.icon:hover {
+  opacity:0.5;
+  z-index:10;
 }

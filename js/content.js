@@ -20,7 +20,7 @@ var contentArray = [
     "title": "1st Year of PyCon India",
     "date": "26th and 27th September, 2009",
     "location": "Indian Institute of Science, Bangalore",
-    "speakers": "",
+    "speakers": "&#9679; Prabhu Ramachandran",
     "description": "Pycon India 2009 is a community conference by the Python developer community. \
                     A purely volunteer effort, it is being hosted for the first time in India, and \
                     will attract some of the best Python developers in India and abroad.",
@@ -58,7 +58,7 @@ var contentArray = [
     "location": "Christ University Campus, Bangalore",
     "speakers": "&#9679; David Mertz <br>&#9679; Jacob Kaplan-Moss",
     "description": "Pycon India 2009 is a community conference by the Python developer community. \
-                    A purely volunteer effort, it is being hosted for the first time in India, and \
+                    A purely volunteer effort, it is being hosted for the fourth time in India, and \
                     will attract some of the best Python developers in India and abroad.",
     "link": "https://in.pycon.org/2012/"
   },
@@ -118,7 +118,7 @@ var contentArray = [
     "taskTitle": "PyCon India 2017",
     "title": "9th Year of PyCon India",
     "date": "2nd - 5th November, 2017",
-    "location": "Indian Institute of Science, Bangalore",
+    "location": "Shaheed Sukhdev College Of Business Studies, New Delhi",
     "speakers": "&#9679; Noufal Ibrahim <br>&#9679; Elizabeth Ferrao <br>&#9679; Peter Wang",
     "description": "PyCon India, the premier conference in India on using and \
                     developing the Python programming language is conducted \
@@ -127,7 +127,7 @@ var contentArray = [
     "link": "https://in.pycon.org/2017/"
   },
   {
-    "image": "img/card-image.png",
+    "image": "img/card-image.jpg", 
     "taskTitle": "PyCon India 2018",
     "title": "10th Year of PyCon India",
     "date": "5th - 9th October 2018",

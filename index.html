@@ -9,6 +9,9 @@
 
  <title>PyCon India 2018 in Hyderabad | October 5th to 9th</title>
 
+  <!-- canonical URL -->
+  <link rel="canonical" href="https://in.pycon.org/2018/">
+
   <!-- Bootstrap Core CSS -->
   <link href="custom/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -75,12 +78,13 @@
         <ul class="nav nav-justified">
           <li class="active"><a href="#home">Home</a></li>
           <li><a href="#journey">Journey</a></li>
-          <!-- <li><a href="#speakers">Speakers</a></li> -->
+          <li><a href="#speakers">Speakers</a></li>
           <!-- <li><a href="#conference">Schedule</a></li> -->
           <li><a href="#sponsors">Sponsors</a></li>
           <li><a href="https://in.pycon.org/blog/">Blog</a></li>
           <li><a href="#venue">Venue</a></li>
           <li><a href="faq.html">FAQ</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
           <li><a href="coc.html">COC</a></li>
         </ul>
       </div>
@@ -93,32 +97,48 @@
       <img id="rotating" class="rotatecircle2 hidden-sm hidden-xs" src="img/circle2.png">
 
       <canvas id="canvas1" class="hidden-sm hidden-xs"></canvas>
-    <div class="pycon2018">
-        <img src="img/banner-logo.png" class="logo animated bounceInDown img-responsive center-block" alt="banner-logo"  >
+      <div class="pycon2018">
+
+        <!-- share bar ribbon -->
+        <div class="share-bar-ribbon share-bar-ribbon--dark">
+         <ul class="list-vertical">
+            <li class="list-vertical__label">Share</li>
+
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fin.pycon.org%2F2018%2F" target="_blank"><img src="img/fb.png" alt="image" class="list-vertical__icon"></a></li>
+
+            <li><a href="https://twitter.com/home?status=Be%20the%20part%20of%2010th%20year%20anniversary%20of%20%40pyconindia,%20the%20premier%20conference%20in%20India%20on%20using%20and%20developing%20the%20Python%20programming%20language." target="_blank"><img src="img/twitt.png" alt="image" class="list-vertical__icon"></a></li>
+            
+             <li><a href="mailto:abc@yourmail.com?subject=PyCon%20India%202018%20-%20Hyderabad&body=Be%20the%20part%20of%20the%2010%20year%20anniversary%20of%20PyCon%20India,%20the%20premier%20conference%20in%20India%20on%20using%20and%20developing%20the%20Python%20programming%20language.%20Follow%20us%20at%20%40pyconindia%20on%20Twitter.%20%20%0A%0AEmail%20us%20your%20queries%20to%20inpycon%40python.org" target="_blank"><img src="img/mail.png" alt="image" class="list-vertical__icon"></a></li>
+          <ul>
+        </div>
+        <img src="img/banner-logo.png" class="logo animated bounceInDown img-responsive center-block" alt="banner-logo">
         <p>The premier conference in India on using and developing the Python programming language.</p>
         <div class="tenyears">
           <!--  <img src="img/10.png" alt="banner-logo" style="width:200px;" class=""> -->
         <p><span>10</span><br/>Years of <br/> PyCon India </p>
         </div>
-       
+
         <h4>Hyderabad International Convention Centre [HICC]</h4>
         <div class="container">
           <div class="col-md-4 text-center">
-            <h3>CONFERENCE</h3>
-            <h4>October 6-7, 2018</h4>
-            <!-- <a href="#" class="button button--quidel button--round-s center-block">Buy Tickets</a> -->
-          </div>
-          <div class="col-md-4 text-center">
             <h3>WORKSHOPS</h3>
             <h4>October 5, 2018</h4>
-             <!-- <a href="#" class="button button--quidel button--round-s center-block">Buy Tickets</a> -->
+             
+          </div>
+          <div class="col-md-4 text-center">
+            <h3>CONFERENCE</h3>
+            <h4>October 6-7, 2018</h4>
+            
           </div>
           <div class="col-md-4 text-center">
             <h3>Developer Sprints</h3>
             <h4>October 8-9, 2018</h4>
-             <!-- <a href="#" class="button button--quidel button--round-s center-block">Buy Tickets</a> -->
+             <!-- <a class="button button--quidel button--round-s center-block">Buy Tickets</a> -->
           </div>
-
+          <div class="container">
+            <div class="col-sm-offset-2 col-sm-4 button-margin"><a href="https://in.pycon.org/cfp/2018/proposals/" class="button button--quidel button--round-s center-block">Submit Proposal <br/> <span class="button-inner-text">Open !</span></a></div>
+            <div class="col-sm-4 button-margin"><a href="#tickets" class="button button--quidel button--round-s center-block">Buy Tickets <br/> <span class="button-inner-text">Open !</span></a></div>
+          </div>
         </div>
     </div>
 
@@ -153,45 +173,54 @@
   <!-- /Section: about -->
 
 
-   <!-- Section: speakers -->  
-<!-- 
+   <!-- Section: speakers -->
+
   <section id="speakers" class="home-section">
-    <div class="heading-about">     
-        <img src="img/bg.png" class="pycon2018_bg1 animated wow bounceInDown" data-wow-delay="1s" data-wow-duration="2s"> 
+    <div class="heading-about">
+        <img src="img/bg.png" class="pycon2018_bg1 animated wow bounceInDown" data-wow-delay="1s" data-wow-duration="2s">
         <div class="container">
-          <div class="row">            
+          <div class="row">
             <div class="">
                 <div class="col-md-12">
                     <div class="pycon2018-section-heading">
                       <h2 class="animated wow bounceInLeft" data-wow-delay="0.2s" data-wow-duration="2s">Keynote<br><span> Speakers</span></h2>
                       <h1 class="pycon-speaker">SPEAKERS</h1>
                         <div class="row pycon2018_spe">
-                          <div class="col-md-4 text-center">
-                              <img src="img/border1.png" class="border1" alt="border">
-                             <img src="img/speaker.png" alt="image">
-                             <h3 class="text-right">Robert Downey Jr</h3>
-                             <h5 class="text-right">Google Inc</h5>
+                          <div class="col-md-3 col-md-offset-1 text-center">
+                             <img src="img/border1.png" class="border1" alt="border">
+                             <img src="img/armin-ronacher.png" alt="image">
+                             <h3 class="text-right">Armin Ronacher</h3>
+                             <h5 class="text-right">Creator of Flask</h5>
+                             <h5 class="text-right">Software Engineer, Sentry.io</h5>
                           </div>
-                          <div class="col-md-4 text-center">
-                          <img src="img/border1.png" class="border1" alt="border">
-                             <img src="img/speaker.png" alt="image">
-                             <h3 class="text-right">Leonardo Di Caprio</h3>
-                             <h5 class="text-right">Microsoft India</h5>
+                          <div class="col-md-3 text-center">
+                             <img src="img/border1.png" class="border1" alt="border">
+                             <img src="img/carol-willing.png" alt="image">
+                             <h3 class="text-right">Carol Willing</h3>
+                             <h5 class="text-right">Former  Director, PSF</h5>
+                             <h6 class="text-right">Core Developer, CPython &amp; Project Jupyter</h6>
                           </div>
-                          <div class="col-md-4 text-center">
+                          <div class="col-md-3 text-center">
+                             <img src="img/border1.png" class="border1" alt="border">
+                             <img src="img/travis-oliphant.png" alt="image">
+                             <h3 class="text-right">Travis Oliphant</h3>
+                             <h5 class="text-right">Founder, Quansight</h5>
+                             <h5 class="text-right">Director, Anaconda Inc.</h5>
+                          </div>
+                          <!-- <div class="col-md-3 text-center">
                           <img src="img/border1.png" class="border1" alt="border">
                              <img src="img/speaker.png" alt="image">
                              <h3 class="text-right">Brad Pitt</h3>
                              <h5 class="text-right">Amazon India</h5>
-                          </div>
+                          </div> -->
                         </div>
-                  </div>  
+                  </div>
                 </div>
               </div>
           </div>
         </div>
     </div>
-  </section> -->
+  </section> 
   <!-- /Section: speakers -->
 
 
@@ -664,7 +693,7 @@
   </section> -->
   <!-- /Section: conference -->
 
-  <!-- Section: sponsers -->
+  <!-- Section: sponsors -->
 
   <section id="sponsors" class="home-section">
     <div class="heading-about pycon-spn">
@@ -685,10 +714,10 @@
                <!--        <div class="row text-center">
                         <h3>Platinum Sponsors</h3>
                         <div class="col-md-4">
-                         
+
                            <img src="img/border2.png" class="border2 border2a" alt="sponsor-border">
                           <img src="img/micro.png" alt="sponsor-image" class="img-responsive sponsora center-block">
-                         
+
                         </div>
                         <div class="col-md-4">
                            <img src="img/border2.png" class="border2 border2a" alt="sponsor-border">
@@ -737,6 +766,89 @@
     </div>
   </section>
   <!-- /Section: sponsers -->
+
+  <!-- Section: tickets -->
+
+  <section id="tickets" class="home-section">
+    <div class="heading-about">
+        <img src="img/bg.png" class="pycon2018_bg1 animated wow bounceInDown" data-wow-delay="1s" data-wow-duration="2s">
+        <div class="container">
+          <div class="row">
+            <div class="">
+                <div class="col-md-12">
+                    <div class="pycon2018-section-heading">
+                      <h2 class="animated wow bounceInLeft" data-wow-delay="0.2s" data-wow-duration="2s">Tickets<br><span> Pricetable</span></h2>
+                      <h1 class="pycon-speaker">TICKETS</h1>
+                        <div class="row pycon2018_spe">
+                          <div id="pages">
+                          <div class="panel-heading pycon2018_panel page table-responsive" data-page="tab1">
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th colspan="3"><h3 class="text-center">Conference</h3></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td width="50%">
+                                    <h3 class="time">Early Bird Ticket</h3>
+                                    Conference ticket for 6th-7th Oct, '18<br/>
+                                    Sale ends by 30 Jun, 2018 11:59 PM (Asia/Kolkata) or completion of 300 tickets
+                                  </td>
+                                  <td width="25%" class="text-center">
+                                    <h3>INR 1200</h3>
+                                    (GST applicable)
+                                  </td>
+                                  <td width="25%"><h4 class="sold-out-text">Sold Out</h4></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3 class="time">Student Ticket</h3>
+                                    Conference ticket for 6th-7th Oct, '18<br/>
+                                    Sale ends by 30 Sep, 2018 11:59 PM (Asia/Kolkata) or completion of 300 tickets<br/>
+                                    <b>Note:</b> Need to produce valid student ID card to collect their entry passes during the conference
+                                  </td>
+                                  <td class="text-center">
+                                    <h3>INR 1000</h3>
+                                    (GST applicable)
+                                  </td>
+                                  <td><a href="https://in.explara.com/e/pycon-india-2018/" target="_blank" class="button button--quidel button--round-s text">Buy Now</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3 class="time">Regular Ticket</h3>
+                                    Conference ticket for 6th-7th Oct, '18<br/>
+                                    Sale ends by 31 Aug, 2018 11:59 PM (Asia/Kolkata) or completion of 300 tickets
+                                  </td>
+                                  <td class="text-center">
+                                    <h3>INR 1700</h3>
+                                    (GST applicable)
+                                  </td>
+                                  <td><a href="https://in.explara.com/e/pycon-india-2018/" target="_blank" class="button button--quidel button--round-s text">Buy Now</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3 class="time">Late Bird Ticket</h3>
+                                    Conference ticket for 6th-7th Oct, '18<br/>
+                                    Available on 01 Sep, 2018 01:00 AM (Asia/Kolkata)
+                                  </td>
+                                  <td class="text-center">
+                                    <h3>INR 2500</h3>
+                                    (GST applicable)
+                                  </td>
+                                  <td><h4 class="coming-soon-text">Coming Soon !</h4></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </section> 
+  <!-- /Section: tickets -->
 
   <!-- Section: updates -->
 
@@ -791,7 +903,7 @@
                           <br/>
                             <h2>Event<br> Venue</h2>
                           <h3>Hyderabad International Convention Centre</h3>
-                          <p>Novotel and HICC Complex, Kondapur, Hyderabad, Telangana 
+                          <p>Novotel and HICC Complex, Kondapur, Hyderabad, Telangana
                             500081</p>
 
                         </div>
@@ -822,20 +934,20 @@
             </div>
           </div> -->
         <div class="col-md-4">
-          <p class="pull-left">Thanks to 
-            <a href="https://www.flickr.com/photos/kushaldas/" target="_blank" rel="noopener noreferrer">Kushal Das</a>, 
-            <a href="https://www.flickr.com/photos/pythonerd/" target="_blank" rel="noopener noreferrer">Bibhas Debnath</a>, 
-            <a href="https://www.flickr.com/photos/rajataaron/" target="_blank" rel="noopener noreferrer">Rajat Saini</a> and 
-            <a href="https://www.flickr.com/photos/sayanchowdhury/" target="_blank" rel="noopener noreferrer">Sayan Chowdhury</a> 
+          <p class="pull-left">Thanks to
+            <a href="https://www.flickr.com/photos/kushaldas/" target="_blank" rel="noopener noreferrer">Kushal Das</a>,
+            <a href="https://www.flickr.com/photos/pythonerd/" target="_blank" rel="noopener noreferrer">Bibhas Debnath</a>,
+            <a href="https://www.flickr.com/photos/rajataaron/" target="_blank" rel="noopener noreferrer">Rajat Saini</a> and
+            <a href="https://www.flickr.com/photos/sayanchowdhury/" target="_blank" rel="noopener noreferrer">Sayan Chowdhury</a>
             for the photos of different years of PyCon India.</p>
         </div>
         <div class="col-md-4">
           <img src="img/footer-logo.png" alt="image" class="img-responsive center-block"><br>
           <p class="pycon2018-copyright">Copyright © 2018 Python Software Society of India</p>
           <ul class="list-inline">
-            <li><a href="https://www.facebook.com/PyConIndia" target="_blank"><img src="img/fb.png" alt="image"></a></li>
-            <li><a href="https://twitter.com/pyconindia" target="_blank"><img src="img/twitt.png" alt="image"></a></li>
-             <li><a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank"><img src="img/mail.png" alt="image"></a></li>
+            <li><a href="https://www.facebook.com/PyConIndia" target="_blank"><img src="img/fb.png" alt="image" class="icon"></a></li>
+            <li><a href="https://twitter.com/pyconindia" target="_blank"><img src="img/twitt.png" alt="image" class="icon"></a></li>
+             <li><a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank"><img src="img/mail.png" alt="image" class="icon"></a></li>
           <ul>
         </div>
         <div class="col-md-4">

@@ -1389,6 +1389,7 @@ font-size:16px;
 	transform: translate3d(0, 0, 0);
 }
 
+
 /* Sacnite */
 .button.button--sacnite {
 	width: 70px;
@@ -1490,4 +1491,26 @@ font-size:16px;
 	background: #3f51b5;
 	border-color: #3f51b5;
 	color: #fff;
+}
+
+.button-margin {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.button-inner-text {
+	font-size: 0.8em;
+	color: #00aa00;
+}
+
+.table .button--quidel {
+	max-width: 150px;
+}
+
+.coming-soon-text {
+	color: #efb610;
+}
+
+.sold-out-text {
+   color: gray;
 }
