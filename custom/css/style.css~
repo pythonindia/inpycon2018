@@ -1763,6 +1763,9 @@ ul.faq-answer li a:hover{
 .border1{
   position: absolute;
 }
+padding.padding{
+  -right: 100px
+}
 .border2{
 
     position: absolute;
