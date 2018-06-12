@@ -297,7 +297,7 @@
                                   <hr />
                                   <div class="description">
                                     <div class="wrapper">
-                                        Travis E. Oliphant is a Founder of Quansight and Director at Anaconda Inc. He co-founded Anaconda Inc and he has worked with Python for numerical and scientific programming, notably as the primary developer of the NumPy and as a founding contributor of the SciPy. He actively contributes to s/w development and engages with the wider open source community in Python ecosystem.
+                                        Travis E. Oliphant is a Founder of Quansight and Director/Co-Founder at Anaconda Inc. He has worked with Python for numerical and scientific programming, notably as the primary developer of the NumPy and as a founding contributor of the SciPy.
                                     </div>
                                   </div>
                                 </div>
@@ -1030,13 +1030,6 @@
             $(this).addClass('hide');
             $('#pages .page[data-page="'+page+'"]').fadeIn('slow').removeClass('hide');
         });
-    });
-    // Auto Scroll Speaker Description on Hover
-    $(".border-data .description").hover(function(e){
-      var translate = $(this).find(".wrapper").height() - $(this).height();
-      $(this).find(".wrapper").css("transform", "translateY(-" + translate +"px)");
-    }, function(e){
-      $(this).find(".wrapper").css("transform", "translateY(0)");
     });
   });
   </script>
