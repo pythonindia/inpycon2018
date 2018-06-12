@@ -1762,8 +1762,6 @@ ul.faq-answer li a:hover{
 
 .border1{
   position: absolute;
-    left: 50px;
-    top: 10px;
 }
 .border2{
 
@@ -1883,15 +1881,4 @@ ul.faq-answer li a:hover{
 .icon:hover {
   opacity:0.5;
   z-index:10;
-}
-
-
-.custom-border {
-  margin: auto;
-    background: #eee;
-    border: 5px solid #513278; 
-    -moz-border-image: -moz-linear-gradient(top, #513278 0%, #e23e89 100%);
-    -webkit-border-image: -webkit-linear-gradient(top, #513278 0%, #e23e89 100%);
-    border-image: linear-gradient(to bottom, #513278 0%, #e23e89 100%);
-    border-image-slice: 1;
 }
