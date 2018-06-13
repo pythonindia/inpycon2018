@@ -1321,10 +1321,8 @@ font-size:16px;
 
 /* Quidel */
 .button--quidel {
-	/*background: #513278;
-	color: #513278;*/
-	background: #86828c;
-	color: #86828c;
+	background: #513278;
+	color: #513278;
 	overflow: hidden;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
@@ -1353,7 +1351,7 @@ font-size:16px;
 	background: #e23e89;
 }
 .button--quidel::before {
-	/*background: #e23e89;*/
+	background: #e23e89;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1381,8 +1379,7 @@ font-size:16px;
 	padding-left: 0.35em;
 }
 .button--quidel:hover {
-	/*color: #37474f;*/
-	color: #86828c;
+	color: #37474f;
 }
 .button--quidel.button--inverted:hover {
 	color: #7986cb;
@@ -1391,20 +1388,6 @@ font-size:16px;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
-
-.button--quidel.cfp {
-	background: #513278;
-	color: #513278;
-}
-
-.button--quidel.cfp::before {
-	background: #e23e89;
-}
-
-.button--quidel.cfp:hover {
-	color: #37474f;
-}
-
 
 
 /* Sacnite */
@@ -1517,9 +1500,17 @@ font-size:16px;
 
 .button-inner-text {
 	font-size: 0.8em;
-	color: #dab96e;
+	color: #00aa00;
 }
 
-.button-inner-text.cfp {
-	color: #00aa00;
+.table .button--quidel {
+	max-width: 150px;
+}
+
+.coming-soon-text {
+	color: #efb610;
+}
+
+.sold-out-text {
+   color: gray;
 }
