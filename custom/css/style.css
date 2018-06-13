@@ -1816,6 +1816,50 @@ ul.faq-answer li a:hover{
   padding-right: 5px;
 }
 
+.btn {
+  font-size: 14px;
+  min-width: 150px;
+  max-width: 300px;
+  display: block;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif !important;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  border: none;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  transition: all .3s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+}
+.btn.btn--awesome:hover{
+  color: #fff;
+}
+
+.btn--awesome {
+  background: rgb(227, 56, 218);
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  color: #fff;
+}
+
+.btn--awesome:hover{
+  /*background: rgb(124, 43, 120);*/
+  box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+  color: #fff;
+}
+
+.btn--awesome.cfp:hover{
+  color: #fff;
+}
+
+.btn--awesome span.button-inner-text{
+  color: #fff;
+}
+
+
 /* #region share bar ribbon */
 .share-bar-ribbon--light{
   background: rgba(255, 255, 255, 0.6);
