@@ -1776,8 +1776,8 @@ ul.faq-answer li a:hover{
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 4%;
-  left: 8%;
+  top: 0;
+  left: 0;
   transition: 0.5s all;
 }
 .bordered-image::after{
@@ -1843,12 +1843,6 @@ ul.faq-answer li a:hover{
 .bordered-image:hover .border-data{
   display: block;
   opacity: 1;
-  top: 0;
-  left: 0;
-}
-.bordered-image:hover::after{
-  top: 0%;
-  left: 0%;
 }
 
 .border1{
