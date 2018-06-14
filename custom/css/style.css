@@ -1763,6 +1763,7 @@ ul.faq-answer li a:hover{
 .bordered-image{
   position: relative;
   width: 90%;
+  max-width: 300px;
   height: 80%;
   margin-left: auto;
   margin-right: auto;
