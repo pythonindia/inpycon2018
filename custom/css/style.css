@@ -1794,11 +1794,21 @@ ul.faq-answer li a:hover{
   background-image: linear-gradient(to bottom, rgb(94,0,120, 0.7), rgb(242,0,130, 0.7));
   color: #fff;
 }
-.wrapper{
-  position: relative;
-  z-index: 1;
-  width: 100%;
+.bordered-image:hover .border-data{
+  display: block;
+  opacity: 1;
+}
+.vcenter-wrapper{
   height: 100%;
+  width: 100%;
+  position: relative;
+  display: table;
+  z-index: 1;
+}
+.vcenter-wrapper .centered{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
 }
 .border-data h3{
   color: #fff;
@@ -1832,10 +1842,6 @@ ul.faq-answer li a:hover{
   font-size: 14px;
   opacity: 0.7;
   overflow: hidden;
-}
-.bordered-image:hover .border-data{
-  display: block;
-  opacity: 1;
 }
 @media all and (min-width: 325px){
   .border-data .description{
