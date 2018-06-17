@@ -1828,29 +1828,49 @@ ul.faq-answer li a:hover{
   width: 75%;
 }
 .border-data .description{
-  position: absolute;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   opacity: 0.7;
-  height: calc(90% - 5em);
   overflow: hidden;
-}
-.border-data .description>.wrapper{
-  transform: translateY(0);
-  transition: 5s all;
-  transition-delay: 1s;
-  height: auto;
 }
 .bordered-image:hover .border-data{
   display: block;
   opacity: 1;
 }
-
+@media all and (min-width: 325px){
+  .border-data .description{
+    font-size: 1.2em;
+  }
+}
+@media all and (min-width: 375px){
+  .border-data .description{
+    font-size: 1.25em;
+  }
+}
+@media all and (min-width: 425px){
+  .border-data .description{
+    font-size: 1.3em;
+  }
+}
+@media all and (min-width:768px){
+  .border-data .description{
+    font-size: 1.4em;
+  }
+}
+@media all and (min-width: 992px){
+  .border-data .description{
+    font-size: 0.8em;
+  }
+}
+@media all and (min-width: 1200px){
+  .border-data .description{
+    font-size: 1.05em;
+  }
+}
 .border1{
   position: absolute;
 }
 .border2{
-
     position: absolute;
     top: 10px;
     left:50px;
