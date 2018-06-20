@@ -8,7 +8,7 @@ Here's how my presence at PyCon India 2018 could effectively help us and our bra
 * PyCon India is also a learning opportunity, offering a wide array of talks, workshops, keynotes, developer sprints strung together in a packed schedule each day divided by various tracks that people could follow.
 * Each presented by industry experts, community leaders and many young minds delving into new technologies and latest trends in the market. Some including ML/AI, Automation, Embedded Systems, Networking, Security, Web Development.
 * I will also be meeting top technical minds, brainstorm with them on ideas, challenges, and best practices. Collaborate with them on projects and solve technical issues.
-It is THE conference to go to for Python professionals. You can learn more about the conference and last year's talk and sessions here.
+It is THE conference to go to for Python professionals. You can learn more about the conference and last year's talk and sessions (here)[https://www.in.pycon.org].
 If I register before 30th of June, the fee is only 1200 rupees. Included in the conference ticket is access to all PyCon India keynotes and talks, sponsor showcase, community spaces (if included this time) and many other networking events, an official PyCon India T-shirt along with lunch and high-tea in the evening for both days (6th-7th October)
 I would be happy to write a post-conference report detailing what I’ve learned and to recommend any changes that we could implement to improve our practices. Please let me know if you have any questions or concerns. I hope we can make this opportunity work.
 Thank you, 
