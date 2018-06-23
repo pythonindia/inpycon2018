@@ -1514,3 +1514,20 @@ font-size:16px;
 .sold-out-text {
    color: gray;
 }
+
+.btn-download{
+  margin: 10px;
+  display: inline-block;
+  color: #513278;
+  transition: 0.3s all;
+  background: transparent;
+  border: 2px solid #513278;
+  border-radius: 5px;
+}
+.btn-download .icon{
+  margin-right:10px;
+}
+.btn-download:hover{
+  background: #513278;
+  color: #FFF;
+}
