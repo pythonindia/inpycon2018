@@ -771,10 +771,16 @@ padding-bottom:80px;
 .pycon2018_panel{
 
     width: 95%;
-    /*padding:10px 1px;*/
     margin: 0 auto;
-
     box-shadow: 0px 3px 10px 0px #ccc;
+
+}
+
+.pycon2018_panel .table>thead>tr>th{
+    border-bottom:none;
+    color:#e23e89;
+    font-weight:600;
+     font-family: 'Roboto', sans-serif;
 
 }
 
@@ -1900,6 +1906,10 @@ ul.faq-answer li a:hover{
 
   .ticket-column {
     height: 100px;
+  }
+
+  .pycon2018_spe {
+    padding: 0px 0;
   }
 
 }
