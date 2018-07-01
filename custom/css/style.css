@@ -771,9 +771,7 @@ padding-bottom:80px;
 .pycon2018_panel{
 
     width: 95%;
-padding:10px 1px;
     margin: 0 auto;
-
     box-shadow: 0px 3px 10px 0px #ccc;
 
 }
@@ -785,15 +783,45 @@ padding:10px 1px;
      font-family: 'Roboto', sans-serif;
 
 }
+
 .pycon2018_panel .table>tbody>tr>td{
     border-top:none;
      font-family: 'Roboto', sans-serif;
      font-size:15px;
      height:100px;
 }
+
+.pycon2018_panel .row {
+  border-top:none;
+     font-family: 'Roboto', sans-serif;
+     font-size:15px;
+}
+
+.pycon2018_panel > .row:nth-of-type(even) {
+    background: #f9f9f9;
+}
+
 .pycon2018_panel .table>tbody>tr>td.time, td .time{
     font-weight:bold;
      color:#e23e89;
+}
+
+.pycon2018_panel .time{
+    font-weight:bold;
+    color:#e23e89;
+}
+
+.ticket-column {
+  position: relative;
+  height: 130px;
+}
+
+.center-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
@@ -1986,6 +2014,14 @@ ul.faq-answer li a:hover{
   /* hiding speaker, journey headings for mobile */
   .pycon-speaker, .pycon-journey{
     display: none;
+  }
+
+  .ticket-column {
+    height: 100px;
+  }
+
+  .pycon2018_spe {
+    padding: 0px 0;
   }
 
 }

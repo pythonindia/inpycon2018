@@ -1507,6 +1507,10 @@ font-size:16px;
 	max-width: 150px;
 }
 
+.pycon2018_panel .button--quidel {
+	max-width: 150px;
+}
+
 .coming-soon-text {
 	color: #efb610;
 }
