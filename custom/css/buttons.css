@@ -1507,10 +1507,31 @@ font-size:16px;
 	max-width: 150px;
 }
 
+.pycon2018_panel .button--quidel {
+	max-width: 150px;
+}
+
 .coming-soon-text {
 	color: #efb610;
 }
 
 .sold-out-text {
    color: gray;
+}
+
+.btn-download{
+  margin: 10px;
+  display: inline-block;
+  color: #513278;
+  transition: 0.3s all;
+  background: transparent;
+  border: 2px solid #513278;
+  border-radius: 5px;
+}
+.btn-download .icon{
+  margin-right:10px;
+}
+.btn-download:hover{
+  background: #513278;
+  color: #FFF;
 }
