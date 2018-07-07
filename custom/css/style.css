@@ -266,9 +266,9 @@ a:focus {
 
     color: #353535;
 
-   box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
-
-    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 30px rgba(109, 109, 109, 0.3);
+    
+    -webkit-box-shadow: 0 10px 30px rgba(109, 109, 109, 0.3);
 
 }
 
@@ -592,18 +592,13 @@ a:focus {
 
 .home-section {
 
-position: relative;
+    position: relative;
 
- padding-top:50px;
-
-     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
-
-    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    padding-top:50px;
 
     margin-top:80px;
 
-padding-bottom:80px;
-
+    padding-bottom:80px;
 
 }
 
@@ -1526,6 +1521,10 @@ footer a:focus {
 
     }
 
+  .index-logo {
+    display: none;
+  }
+
 }
 
 
@@ -1625,14 +1624,11 @@ footer a:focus {
 
 
 @media screen and (max-width: 767px){
-.navbar-header{
-    background:#513278;
-}
-    .pycon2018-intro .pycon2018{
+  .pycon2018-intro .pycon2018{
 
-        padding-top:10px;
+    padding-top:10px;
 
-    }
+  }
 
   .pycon-card img.collage-img{
 
@@ -1665,9 +1661,15 @@ footer a:focus {
 
   .navbar-toggle{
 
-    background: #333;
+    background: #513278;
 
     padding: 8px 8px;
+
+  }
+
+  .collapse {
+
+    border-top: 1px solid black;
 
   }
 
