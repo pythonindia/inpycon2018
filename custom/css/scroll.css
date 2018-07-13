@@ -15,6 +15,10 @@
   /* show the timeline after events position has been set (using JavaScript) */
   opacity: 1;
 }
+
+.cd-timeline-navigation {
+  display:none;
+}
 .jtline .timeline {
   position: relative;
   height: 100px;
@@ -295,6 +299,10 @@
 @media only screen and (max-width: 768px) {
   .jtline .events-content ol {
     padding: 0;
+  }
+
+  .cd-timeline-navigation {
+    display:block;
   }
 }
 @-webkit-keyframes cd-enter-right {
