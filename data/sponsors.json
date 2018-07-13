@@ -1,30 +1,8 @@
 {
     "Platinum":[
         {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        },
-        {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        },
-        {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        }
-    ],
-    "Gold":[
-        {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        },
-        {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        },
-        {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
+            "alt-text":"aqr",
+            "img":"img/sponsor/aqr.jpg"
         }
     ]
 }
