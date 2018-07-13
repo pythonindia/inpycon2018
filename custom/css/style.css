@@ -392,6 +392,10 @@ a:focus {
 
 }
 
+/* Timeline navigation buttons - hidden for large screen devices*/
+.cd-timeline-navigation {
+  display:none;
+}
 
 
 #load {
@@ -1605,6 +1609,11 @@ footer a:focus {
 
     height: 100% !important;
 
+  }
+
+/* Timeline navigation buttons - visible for small screen devices*/
+  ul.cd-timeline-navigation {
+    display:block;
   }
 
   .logo{width: 100%;}
