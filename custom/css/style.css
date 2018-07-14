@@ -1869,28 +1869,28 @@ ul.faq-answer li a:hover{
 }
 .border-data .description{
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.7;
   overflow: hidden;
 }
 @media all and (min-width: 325px){
   .border-data .description{
-    font-size: 1.2em;
+    font-size: 1.0em;
   }
 }
 @media all and (min-width: 375px){
   .border-data .description{
-    font-size: 1.25em;
+    font-size: 1.05em;
   }
 }
 @media all and (min-width: 425px){
   .border-data .description{
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 }
 @media all and (min-width:768px){
   .border-data .description{
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 }
 @media all and (min-width: 992px){
