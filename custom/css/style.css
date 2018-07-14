@@ -1609,7 +1609,7 @@ footer a:focus {
 
   .logo{width: 100%;}
 
-  .navbar .container, .pycon-spn img{width: 100% !important;}
+  .navbar .container{width: 100% !important;}
 
   .navbar-custom ul.nav li a{
 
@@ -1912,18 +1912,8 @@ ul.faq-answer li a:hover{
     left:50px;
 }
 
-.border2a,.sponsora{
- width: 70%;
-}
-.border2b,.sponsorb{
-   width: 60%;
-}
-.border2c,.sponsorc{
-   width: 50%;
-}
-
-.sponsora,.sponsorb,.sponsorc{
-  margin-top:30px;
+.sponsor {
+  max-height: 200px;
 }
 
 .pycon-card .more-button {
