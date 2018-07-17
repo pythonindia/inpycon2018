@@ -45,4 +45,4 @@ If you are stuck on some issue and would like help from someone in the community
 
 
 
-The Contribution Guidelines have been based on CONTRIBUTING.md from the [2017 DjanoCon U.S. website repo](https://github.com/djangocon/2017.djangocon.us) 
+The Contribution Guidelines have been based on CONTRIBUTING.md from the [2017 DjangoCon U.S. website repo](https://github.com/djangocon/2017.djangocon.us) 
