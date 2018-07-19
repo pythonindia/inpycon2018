@@ -10,5 +10,12 @@
             "img":"img/sponsors/go-jek.png",
             "link": "https://www.go-jek.com/"
         }
+    ],
+    "Gold":[
+{
+            "alt-text":"Go-Jek",
+            "img":"img/sponsors/go-jek.png",
+            "link": "https://www.go-jek.com/"
+        }
     ]
 }
