@@ -5,5 +5,12 @@
             "img":"img/sponsors/aqr.jpg",
             "link": "https://www.aqr.com/"
         }
+    ],
+    "Gold":[
+{
+            "alt-text":"Pramati Technologies",
+            "img":"img/sponsors/logo_pramati_trans_152.png",
+            "link": "https://www.pramati.com/"
+        }
     ]
 }
