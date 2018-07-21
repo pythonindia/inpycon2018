@@ -21,6 +21,11 @@
             "alt-text":"Pramati Technologies",
             "img":"img/sponsors/Pramati.png",
             "link": "https://www.pramati.com/"
+        },
+        {
+            "alt-text":"LiveHealth",
+            "img":"img/sponsors/LH_logo.png",
+            "link": "https://livehealth.in/"
         }
     ]
 }
