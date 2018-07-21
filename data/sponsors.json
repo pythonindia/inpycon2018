@@ -9,7 +9,12 @@
             "alt-text":"D. E. Shaw India",
             "img":"img/sponsors/DESCO_Logo_2c.jpg",
             "link": "http://www.deshawindia.com/"
-        }
+        },
+	{
+            "alt-text":"Go-Jek",
+            "img":"img/sponsors/go-jek.png",
+            "link": "https://www.go-jek.com/"
+	}
     ],
     "Gold":[
         {
