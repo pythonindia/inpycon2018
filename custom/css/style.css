@@ -1916,6 +1916,11 @@ ul.faq-answer li a:hover{
   max-height: 200px;
 }
 
+.sponsor-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .pycon-card .more-button {
   position: absolute;
   bottom: 10px;
