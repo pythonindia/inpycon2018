@@ -4,10 +4,15 @@
             "alt-text":"AQR",
             "img":"img/sponsors/aqr.jpg",
             "link": "https://www.aqr.com/"
+        },
+        {
+            "alt-text":"D. E. Shaw India",
+            "img":"img/sponsors/DESCO_Logo_2c.jpg",
+            "link": "http://www.deshawindia.com/"
         }
     ],
     "Gold":[
-{
+        {
             "alt-text":"Pramati Technologies",
             "img":"img/sponsors/Pramati.png",
             "link": "https://www.pramati.com/"
