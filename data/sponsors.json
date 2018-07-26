@@ -11,9 +11,9 @@
             "link": "http://www.deshawindia.com/"
         },
     	{
-                "alt-text":"Go-Jek",
-                "img":"img/sponsors/go-jek.png",
-                "link": "https://www.go-jek.com/"
+            "alt-text":"Go-Jek",
+            "img":"img/sponsors/go-jek.png",
+            "link": "https://www.go-jek.com/"
     	}
     ],
     "Gold":[
@@ -21,6 +21,11 @@
             "alt-text":"Pramati Technologies",
             "img":"img/sponsors/Pramati.png",
             "link": "https://www.pramati.com/"
+        },
+        {
+            "alt-text":"LiveHealth",
+            "img":"img/sponsors/LiveHealth_logo.png",
+            "link": "https://livehealth.in"
         }
     ]
 }
