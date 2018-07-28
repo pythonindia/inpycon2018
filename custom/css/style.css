@@ -64,7 +64,7 @@ a:focus {
 
 .navbar {
 
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 
     border-bottom: 1px solid rgba(255,255,255,.3);
 
@@ -2021,4 +2021,14 @@ ul.faq-answer li a:hover{
 .icon:hover {
   opacity:0.5;
   z-index:10;
+}
+
+
+#bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul > li:nth-child(2) > a.dropdown-toggle{
+  display: none;
+}
+
+#bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul{
+  display: block;
+  width: 100%;
 }
