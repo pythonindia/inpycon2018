@@ -70,8 +70,13 @@ a:focus {
 
 	  float: none;
 
-	   border-top: 3px solid #513278;
+    border-top: 3px solid #513278;
 
+    height:auto ;
+    
+    /* overflow:auto; */
+     
+    
 }
 
 .navbar .container{width: 970px;}
@@ -138,7 +143,7 @@ a:focus {
 
 	font-weight: 700;
 
-	transition:all 0.5s;
+  transition:all 0.5s;
 
 }
 
@@ -2031,4 +2036,8 @@ ul.faq-answer li a:hover{
 #bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul{
   display: block;
   width: 100%;
+}
+
+#page-top > nav > div > a > img{
+  height: 60px !important;
 }
