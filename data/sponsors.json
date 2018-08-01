@@ -27,12 +27,5 @@
             "img":"img/sponsors/LiveHealth_logo.png",
             "link": "https://livehealth.in"
         }
-    ],
-    "Silver":[
-        {
-            "alt-text":"FOSSEE",
-            "img":"img/sponsors/fossee.png",
-            "link": "https://fossee.in/"
-        }
     ]
 }
