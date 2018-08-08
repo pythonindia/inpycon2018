@@ -1,5 +1,5 @@
 {
-    "keynote speakers": [
+    "Keynote": [
         {
             "Name": "Armin Ronacher",
             "City": "Austria",
@@ -53,7 +53,10 @@
             }
         }
     ],
-    "speakers": [
+    "Workshop": [
+
+    ],
+    "Talks": [
 
     ]
 }

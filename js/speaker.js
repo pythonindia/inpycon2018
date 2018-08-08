@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $.getJSON('../data/speakers.json', function(json) {
+  $.getJSON('./data/speakers.json', function(json) {
     var html = '';
     if (Object.keys(json) == 0) {
       html += '<h1>No speakers found</h1>';
