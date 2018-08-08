@@ -27,5 +27,12 @@
             "img":"img/sponsors/LiveHealth_logo.png",
             "link": "https://livehealth.in"
         }
+    ],
+    "Associate":[
+        {
+            "alt-text":"Reckonsys",
+            "img":"img/sponsors/reckonsys.png",
+            "link": "https://www.reckonsys.com/"
+        }
     ]
 }
