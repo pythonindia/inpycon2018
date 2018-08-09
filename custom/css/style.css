@@ -1529,3 +1529,9 @@ ul.faq-answer li a:hover {
 .speaker-cards .icons i a {
     text-decoration: none;
 }
+
+.schedule-column {
+    position: relative;
+    min-height: 50px;
+    padding: 1em;
+}
