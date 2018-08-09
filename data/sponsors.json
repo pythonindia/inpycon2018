@@ -14,7 +14,12 @@
             "alt-text":"Go-Jek",
             "img":"img/sponsors/go-jek.png",
             "link": "https://www.go-jek.com/"
-    	}
+    	},
+        {
+            "alt-text":"Indeed",
+            "img":"img/sponsors/indeed.png",
+            "link": "https://www.indeed.jobs/career/JobListHyderabad"
+        }
     ],
     "Gold":[
         {
