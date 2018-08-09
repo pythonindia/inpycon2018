@@ -1,30 +1,38 @@
 {
     "Platinum":[
         {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
+            "alt-text":"AQR",
+            "img":"img/sponsors/aqr.jpg",
+            "link": "https://www.aqr.com/"
         },
         {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
+            "alt-text":"D. E. Shaw India",
+            "img":"img/sponsors/DESCO_Logo_2c.jpg",
+            "link": "http://www.deshawindia.com/"
         },
-        {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        }
+    	{
+            "alt-text":"Go-Jek",
+            "img":"img/sponsors/go-jek.png",
+            "link": "https://www.go-jek.com/"
+    	}
     ],
     "Gold":[
         {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
+            "alt-text":"Pramati Technologies",
+            "img":"img/sponsors/Pramati.png",
+            "link": "https://www.pramati.com/"
         },
         {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
-        },
+            "alt-text":"LiveHealth",
+            "img":"img/sponsors/LiveHealth_logo.png",
+            "link": "https://livehealth.in"
+        }
+    ],
+    "Associate":[
         {
-            "alt-text":"microsoft",
-            "img":"img/micro.png"
+            "alt-text":"Reckonsys",
+            "img":"img/sponsors/reckonsys.png",
+            "link": "https://www.reckonsys.com/"
         }
     ]
 }
