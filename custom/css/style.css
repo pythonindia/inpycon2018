@@ -973,7 +973,7 @@ footer a:focus {
         margin: 0;
     }
     .pycon2018_panel1 .nav-tabs > li a {
-        padding: 10px 15px;
+        padding: 10px 5px;
         margin: 0;
     }
 }
@@ -992,6 +992,15 @@ footer a:focus {
     .navbar-custom ul.nav li a {
         padding: 10px 12px;
         font-size: 16px;
+    }
+
+    .pycon2018_panel1 .nav-tabs > li {
+        display: inline-block !important;
+        width: auto !important;
+    }
+
+    .pycon2018_panel1 .nav-tabs > li a {
+        padding: 10px 20px !important;
     }
 }
 
@@ -1030,6 +1039,14 @@ footer a:focus {
     }
     .navbar-toggle .icon-bar {
         background: #fff;
+    }
+    .pycon2018_panel1 .nav-tabs > li {
+        display: inline-block !important;
+        width: auto !important;
+    }
+
+    .pycon2018_panel1 .nav-tabs > li a {
+        padding: 10px 0px !important;
     }
 }
 
@@ -1528,4 +1545,10 @@ ul.faq-answer li a:hover {
 
 .speaker-cards .icons i a {
     text-decoration: none;
+}
+
+.schedule-column {
+    position: relative;
+    min-height: 50px;
+    padding: 1em;
 }
