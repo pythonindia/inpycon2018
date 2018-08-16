@@ -2,7 +2,6 @@ $(document).ready(function(){
     $.getJSON('./data/schedule.json',function(response){
         createScheduleBlock(response);
     });
-
 });
 
 createScheduleBlock = function(data){
@@ -10,7 +9,7 @@ createScheduleBlock = function(data){
         var tab = 1;
         $.each(data, function(key, value) {
             for(var i = 0; i < value.length; i++) {
-                    scheduleContent += "<div class=\"panel-heading pycon2018_panel page table-responsive " + ( tab ==1 ? "" : "hide" ) + "\" data-page=\"tab"+tab+"\">"
+                    scheduleContent += "<div class='panel-heading pycon2018_panel page table-responsive " + ( tab ==1 ? "" : "hide" ) + "' data-page='tab"+tab+"'>"
                     scheduleContent += createScheduleForADay(value[i].TimeTable);
                     scheduleContent += "</div>"
                     tab += 1;
@@ -38,14 +37,14 @@ createScheduleForADay = function (item) {
 createLunchBreakfastRow = function(item) {
     var rowContent = '';
 
-    rowContent += "<div class=\"row\">" +
-                  "<div class=\"col-xs-12 col-lg-3 time schedule-column\">"+
-                    "<span class=\"center-align\">" +
+    rowContent += "<div class='row'>" +
+                  "<div class='col-xs-12 col-lg-3 time schedule-column'>"+
+                    "<span class='center-align'>" +
                         item.Time +
                     "</span>"+
                   "</div>"+
-                  "<div class=\"col-xs-12 col-lg-9 text-center schedule-column\">"+
-                      "<span class=\"center-align capitalize\">"+
+                  "<div class='col-xs-12 col-lg-9 text-center schedule-column'>"+
+                      "<span class='center-align capitalize'>"+
                         item.Tracks[0].Title +
                       "</span>"+
                   "</div>"+
@@ -57,23 +56,23 @@ createLunchBreakfastRow = function(item) {
 createTracksRow = function(item) {
     var rowContent = '';
 
-    rowContent += "<div class=\"row\">"+
-                    "<div class=\"col-xs-12 col-sm-12 col-lg-3 time schedule-column\">"+
-                        "<span class=\"center-align\">"+
+    rowContent += "<div class='row'>"+
+                    "<div class='col-xs-12 col-sm-12 col-lg-3 time schedule-column'>"+
+                        "<span class='center-align'>"+
                             item.Time+
                         "</span>"+
                     "</div>";
 
     for (var i = 0; i < item.Tracks.length; i++) {
-        rowContent += "<div class=\"col-xs-12 col-lg-2 schedule-column\">"+
+        rowContent += "<div class='col-xs-12 col-lg-2 schedule-column'>"+
                             "<strong>"+
-                                "<a href=\""+item.Tracks[i].Url+"\" target=\"_blank\""+ 
-                                    "title=\""+item.Tracks[i].Title+"\">"+ 
+                                "<a href='"+item.Tracks[i].Url+"' target='_blank'"+ 
+                                    "title='"+item.Tracks[i].Title+"'>"+ 
                                     item.Tracks[i].Title+
                                 "</a>"+
                             "</strong>"+
                             "<br><em>By "+item.Tracks[i].Speaker+"</em>"+
-                            "<br><span class=\"badge\">"+item.Tracks[i].Hall+"</span>"+
+                            "<br><span class='badge'>"+item.Tracks[i].Hall+"</span>"+
                         "</div>";
     }
     rowContent += "</div>";
