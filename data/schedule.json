@@ -4,7 +4,7 @@
             "TimeTable": [{
                     "Time": "08:00 AM - 09:00 AM",
                     "Tracks": [{
-                        "Title": "REGISTRATION"
+                        "Title": "REGISTRATION AND BREAKFAST"
                     }]
                 },
                 {
@@ -69,30 +69,6 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "Date": "06-Oct-2018",
-            "TimeTable": [
-
-            ]
-        },
-        {
-            "Date": "07-Oct-2018",
-            "TimeTable": [
-
-            ]
-        },
-        {
-            "Date": "08-Oct-2018",
-            "TimeTable": [
-
-            ]
-        },
-        {
-            "Date": "09-Oct-2018",
-            "TimeTable": [
-
             ]
         }
     ]
