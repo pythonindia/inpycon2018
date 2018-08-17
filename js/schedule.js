@@ -23,7 +23,7 @@ createScheduleForADay = function (item) {
     var dayContent = '';
     for(i = 0; i < item.length; i ++){
         if(item[i].Tracks.length == 1 && 
-            (item[i].Tracks[0].Title == "REGISTRATION AND BREAKFAST") || item[i].Tracks[0].Title == "LUNCH"){
+            (item[i].Tracks[0].Title == "REGISTRATION") || item[i].Tracks[0].Title == "LUNCH"){
             dayContent += createLunchBreakfastRow(item[i]);
         }
         else {
