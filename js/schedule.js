@@ -1,7 +1,84 @@
 $(document).ready(function(){
-    $.getJSON('./data/schedule.json',function(response){
-        createScheduleBlock(response);
-    });
+    // $.getJSON('./data/schedule.json',function(response){
+    //     createScheduleBlock(response);
+    // });
+    var response = {
+    "Schedule": [{
+            "Date": "05-Oct-2018",
+            "TimeTable": [{
+                    "Time": "08:00 AM - 09:00 AM",
+                    "Tracks": [{
+                        "Title": "REGISTRATION"
+                    }]
+                },
+                {
+                    "Time": "10:00 AM - 01:00 PM",
+                    "Tracks": [{
+                            "Title": "Demystifying the Django REST Framework: Web Development",
+                            "Speaker": "Haris Ibrahim K. V",
+                            "Hall": "Hall 1",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule"
+                        },
+                        {
+                            "Title": "Docker Workshop: Infrastructure",
+                            "Speaker": "Lalatendu Mohanty",
+                            "Hall": "Hall 2",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/docker-workshop~dyXwb/?ref=schedule"
+                        },
+                        {
+                            "Title": "Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing",
+                            "Speaker": "Kumar Krishna Agarwal",
+                            "Hall": "Hall 3",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/talking-to-machines-optimizing-neural-networks-with-theano~ep2rb/?ref=schedule"
+                        },
+                        {
+                            "Title": "Demystifying the Django REST Framework: Web Development",
+                            "Speaker": "Haris Ibrahim K. V",
+                            "Hall": "Hall 4",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule"
+                        }
+                    ]
+                },
+                {
+                    "Time": "01:00 PM - 02:00 PM",
+                    "Tracks": [{
+                        "Title": "LUNCH"
+                    }]
+                },
+                {
+                    "Time": "02:00 PM - 05:00 PM",
+                    "Tracks": [{
+                            "Title": "Scaling Django with Kubernetes: Infrastructure",
+                            "Speaker": "Saket Bhushan",
+                            "Hall": "Hall 1",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule"
+                        },
+                        {
+                            "Title": "Productive Coding with PyCharm",
+                            "Speaker": "Paul Everitt",
+                            "Hall": "Hall 2",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/productive-coding-with-pycharm~aA11a/?ref=schedule"
+                        },
+                        {
+                            "Title": "Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing",
+                            "Speaker": "Mimansa Jaiswal and Sairam Tabibu",
+                            "Hall": "Hall 3",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/building-a-lie-detector-multi-modal-sentiment-analysis~epk1d/?ref=schedule"
+                        },
+                        {
+                            "Title": "Scaling Django with Kubernetes: Infrastructure",
+                            "Speaker": "Saket Bhushan",
+                            "Hall": "Hall 4",
+                            "Url": "https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+};
+
+createScheduleBlock(response);
 });
 
 createScheduleBlock = function(data){
