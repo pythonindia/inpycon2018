@@ -10,28 +10,28 @@
                 {
                     "Time": "10:00 AM - 01:00 PM",
                     "Tracks": [{
-                            "Title": "Demystifying the Django REST Framework: Web Development",
-                            "Speaker": "Haris Ibrahim K. V",
+                            "Title": "Exploring PyTorch for AI assistance in Medical Imaging",
+                            "Speaker": "",
                             "Hall": "Hall 1",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule"
+                            "Url": "#"
                         },
                         {
-                            "Title": "Docker Workshop: Infrastructure",
-                            "Speaker": "Lalatendu Mohanty",
+                            "Title": "Decoding Bollywood with Python and data science",
+                            "Speaker": "",
                             "Hall": "Hall 2",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/docker-workshop~dyXwb/?ref=schedule"
+                            "Url": "#"
                         },
                         {
-                            "Title": "Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing",
-                            "Speaker": "Kumar Krishna Agarwal",
+                            "Title": "Web UI automation with Selenium",
+                            "Speaker": "",
                             "Hall": "Hall 3",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/talking-to-machines-optimizing-neural-networks-with-theano~ep2rb/?ref=schedule"
+                            "Url": "#"
                         },
                         {
-                            "Title": "Demystifying the Django REST Framework: Web Development",
-                            "Speaker": "Haris Ibrahim K. V",
+                            "Title": "Advanced Object Oriented Programming",
+                            "Speaker": "",
                             "Hall": "Hall 4",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule"
+                            "Url": "#"
                         }
                     ]
                 },
@@ -44,28 +44,28 @@
                 {
                     "Time": "02:00 PM - 05:00 PM",
                     "Tracks": [{
-                            "Title": "Scaling Django with Kubernetes: Infrastructure",
-                            "Speaker": "Saket Bhushan",
+                            "Title": "Free and Open Source libraries of Python for Geo spatial analysis",
+                            "Speaker": "",
                             "Hall": "Hall 1",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule"
+                            "Url": "#"
                         },
                         {
-                            "Title": "Productive Coding with PyCharm",
-                            "Speaker": "Paul Everitt",
+                            "Title": "Jupyter hub and Binder",
+                            "Speaker": "Carol Willing",
                             "Hall": "Hall 2",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/productive-coding-with-pycharm~aA11a/?ref=schedule"
+                            "Url": "#"
                         },
                         {
-                            "Title": "Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing",
-                            "Speaker": "Mimansa Jaiswal and Sairam Tabibu",
+                            "Title": "Designing RESTful APIs",
+                            "Speaker": "",
                             "Hall": "Hall 3",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/building-a-lie-detector-multi-modal-sentiment-analysis~epk1d/?ref=schedule"
+                            "Url": "#"
                         },
                         {
-                            "Title": "Scaling Django with Kubernetes: Infrastructure",
-                            "Speaker": "Saket Bhushan",
+                            "Title": "Numba and Dask",
+                            "Speaker": "Travis Oliphant",
                             "Hall": "Hall 4",
-                            "Url": "https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule"
+                            "Url": "#"
                         }
                     ]
                 }
