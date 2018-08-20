@@ -2041,3 +2041,7 @@ ul.faq-answer li a:hover{
 #page-top > nav > div > a > img{
   height: 60px !important;
 }
+
+.navbar-custom ul.nav ul.dropdown-menu li a{
+  white-space: normal;
+}
