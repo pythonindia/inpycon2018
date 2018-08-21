@@ -31,6 +31,11 @@
             "alt-text":"LiveHealth",
             "img":"img/sponsors/LiveHealth_logo.png",
             "link": "https://livehealth.in"
+        },
+        {
+            "alt-text":"Soroco",
+            "img":"img/sponsors/soroco.png",
+            "link": "http://www.soroco.com/"
         }
     ],
     "Associate":[
