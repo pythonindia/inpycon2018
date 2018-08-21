@@ -11,25 +11,25 @@
                     "Time": "10:00 AM - 01:00 PM",
                     "Tracks": [{
                             "Title": "Exploring PyTorch for AI assistance in Medical Imaging",
-                            "Speaker": "",
+                            "Speaker": "Abhishek Kumar",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
                         {
                             "Title": "Decoding Bollywood with Python and data science",
-                            "Speaker": "",
+                            "Speaker": "Marc Garcia",
                             "Hall": "Hall 2",
                             "Url": "#"
                         },
                         {
-                            "Title": "Web UI automation with Selenium",
-                            "Speaker": "",
+                            "Title": "Web UI automation using Selenium",
+                            "Speaker": "Bhoomika Agarwal",
                             "Hall": "Hall 3",
                             "Url": "#"
                         },
                         {
                             "Title": "Advanced Object Oriented Programming",
-                            "Speaker": "",
+                            "Speaker": "Vishnu Kiran",
                             "Hall": "Hall 4",
                             "Url": "#"
                         }
@@ -45,7 +45,7 @@
                     "Time": "02:00 PM - 05:00 PM",
                     "Tracks": [{
                             "Title": "Free and Open Source libraries of Python for Geo spatial analysis",
-                            "Speaker": "",
+                            "Speaker": "Nishad KA",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
@@ -57,7 +57,7 @@
                         },
                         {
                             "Title": "Designing RESTful APIs",
-                            "Speaker": "",
+                            "Speaker": "Anand Chitipothu",
                             "Hall": "Hall 3",
                             "Url": "#"
                         },
