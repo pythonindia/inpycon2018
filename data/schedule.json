@@ -1,0 +1,75 @@
+{
+    "Schedule": [{
+            "Date": "05-Oct-2018",
+            "TimeTable": [{
+                    "Time": "08:00 AM - 09:00 AM",
+                    "Tracks": [{
+                        "Title": "REGISTRATION"
+                    }]
+                },
+                {
+                    "Time": "10:00 AM - 01:00 PM",
+                    "Tracks": [{
+                            "Title": "Exploring PyTorch for AI assistance in Medical Imaging",
+                            "Speaker": "Abhishek Kumar",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Decoding Bollywood with Python and data science",
+                            "Speaker": "Marc Garcia",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Web UI automation using Selenium",
+                            "Speaker": "Bhoomika Agarwal",
+                            "Hall": "Hall 3",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Advanced Object Oriented Programming",
+                            "Speaker": "Vishnu Kiran",
+                            "Hall": "Hall 4",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "01:00 PM - 02:00 PM",
+                    "Tracks": [{
+                        "Title": "LUNCH"
+                    }]
+                },
+                {
+                    "Time": "02:00 PM - 05:00 PM",
+                    "Tracks": [{
+                            "Title": "Free and Open Source libraries of Python for Geo spatial analysis",
+                            "Speaker": "Nishad KA",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Jupyter hub and Binder",
+                            "Speaker": "Carol Willing",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Designing RESTful APIs",
+                            "Speaker": "Anand Chitipothu",
+                            "Hall": "Hall 3",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Numba and Dask",
+                            "Speaker": "Travis Oliphant",
+                            "Hall": "Hall 4",
+                            "Url": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
