@@ -62,7 +62,7 @@
                             "Url": "https://in.pycon.org/cfp/2018/proposals/designing-restful-apis~aAx3e/"
                         },
                         {
-                            "Title": "Numba and Dask",
+                            "Title": "Scaling Python up and out with Numba and Dask",
                             "Speaker": "Travis Oliphant",
                             "Hall": "Hall 4",
                             "Url": "#"
