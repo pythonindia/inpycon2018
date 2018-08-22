@@ -1298,6 +1298,20 @@ ul.faq-answer li a:hover {
     padding-bottom: 10px;
 }
 
+@media screen and (min-width: 900px) {
+    .gojek {
+        margin-top: 10px;
+    }
+
+    .pramati {
+        margin-top: 35px;
+    }
+
+    .livehealth {
+        margin-top: 35px;
+    }
+}
+
 .pycon-card .more-button {
     position: absolute;
     bottom: 10px;
