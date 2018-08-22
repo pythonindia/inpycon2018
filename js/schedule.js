@@ -15,15 +15,15 @@ createScheduleBlock = function(data){
                     tab += 1;
                 }
         });
-            
+
         $("#schedule-content").append(scheduleContent);
 }
 
 createScheduleForADay = function (item) {
     var dayContent = '';
     for(i = 0; i < item.length; i ++){
-        if(item[i].Tracks.length == 1 && 
-            (item[i].Tracks[0].Title == "REGISTRATION") || item[i].Tracks[0].Title == "LUNCH"){
+        if(item[i].Tracks.length == 1 &&
+            (["CONFERENCE REGISTRATION", "WORKSHOP REGISTRATION", "LUNCH"].indexOf(item[i].Tracks[0].Title) >= 0)){
             dayContent += createLunchBreakfastRow(item[i]);
         }
         else {
@@ -66,8 +66,8 @@ createTracksRow = function(item) {
     for (var i = 0; i < item.Tracks.length; i++) {
         rowContent += "<div class='col-xs-12 col-lg-2 schedule-column'>"+
                             "<strong>"+
-                                "<a href='"+item.Tracks[i].Url+"' target='_blank'"+ 
-                                    "title='"+item.Tracks[i].Title+"'>"+ 
+                                "<a href='"+item.Tracks[i].Url+"' target='_blank'"+
+                                    "title='"+item.Tracks[i].Title+"'>"+
                                     item.Tracks[i].Title+
                                 "</a>"+
                             "</strong>"+
