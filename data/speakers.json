@@ -1,0 +1,62 @@
+{
+    "Keynote": [
+        {
+            "Name": "Armin Ronacher",
+            "City": "Austria",
+            "Designation": "Software Engineer @ Sentry.io ",
+            "profile_image": "https://pbs.twimg.com/profile_images/1433982028/profile_400x400.png",
+            "Description": "Creator of the Flask Web Framework and principal software engineer at sentry.io.",
+            "social_links": {
+                "twitter": "https://twitter.com/mitsuhiko",
+                "linkedin": "https://www.linkedin.com/in/arminronacher",
+                "github": "http://github.com/mitsuhiko",
+                "website": "http://lucumr.pocoo.org/"
+            }
+        },
+        {
+            "Name": "Carol Willing",
+            "City": "San Diego",
+            "Designation": "Core Developer of CPython & Jupyter",
+            "profile_image": "https://pbs.twimg.com/profile_images/912106281552318464/OfLHf-Up_400x400.jpg",
+            "Description": "PSF Fellow and former Director, a core developer of CPython and Project Jupyter.",
+            "social_links": {
+                "twitter": "https://twitter.com/WillingCarol",
+                "linkedin": "https://www.linkedin.com/in/carolwilling",
+                "github": "https://github.com/willingc",
+                "website": "https://www.willingconsulting.com/"
+            }
+        },
+        {
+            "Name": "Travis E. Oliphant",
+            "City": "Austin, TX",
+            "Designation": "Director, Anaconda Inc.",
+            "profile_image": "https://pbs.twimg.com/profile_images/143077709/DSCF0283_2_400x400.JPG",
+            "Description": "Creator of SciPy, NumPy, and Numba; Founder of NumFOCUS. CEO of Quansight",
+            "social_links": {
+                "twitter": "https://twitter.com/teoliphant",
+                "linkedin": "https://www.linkedin.com/in/teoliphant/",
+                "github": "https://github.com/teoliphant",
+                "website": "https://technicaldiscovery.blogspot.com/"
+            }
+        },
+        {
+            "Name": "Sidu Ponnappa",
+            "City": "Bangalore, India",
+            "Designation": "Data + People, GO-JEK",
+            "profile_image": "https://pbs.twimg.com/profile_images/856348275703558144/Fiopu_Vb_400x400.jpg",
+            "Description": "Sidu is 4x a Founder/CEO, 3x a failure, 1x profitable and 1x exit. Now: Data + People @GojekTech",
+            "social_links": {
+                "twitter": "https://twitter.com/ponnappa",
+                "linkedin": "https://www.linkedin.com/in/sidup/",
+                "github": "https://github.com/kaiwren",
+                "website": "http://sidu.in/"
+            }
+        }
+    ],
+    "Workshop": [
+
+    ],
+    "Talks": [
+
+    ]
+}

@@ -5,21 +5,43 @@ $(document).ready(function(){
     });
 });
 
-constructSponsorBlock = function(response){
-        var text = "";
-        
-        $.each(response,function(key,value){
-            var title=  "<div class='row text-center'><h3>" + key +" Sponsors</h3>";
-            $.each(value,function(index,item) {
-                var str = "<div class='col-md-offset-4 col-md-4'><a href='" + item["link"] +
-                "' target='_blank'><img src='" + item["img"] + "' alt='" + item["alt-text"] +
-                "' class='img-responsive sponsor center-block'></a></div>";
-                title += str;
-                str = "";
-            });
-            text += title + "</div><br /><br /><br /><br />";
-            title = "";
+constructSponsorBlock = function(data){
+        var sponsorContent = "";
+
+        $.each(data, function(key, value) {
+            sponsorContent += "<h3 class='text-center'>" + key + " Sponsors</h3>";
+            for(var i = 0; i < value.length; i += 3) {
+                sponsorGroups = value.slice(i, i+3);
+                sponsorContent += "<div class='row'>"
+                sponsorContent += buildSponsorRow(sponsorGroups);
+                sponsorContent += "</div>";
+            }
+
         });
             
-        $("#sponsors-content").append(text);
+        $("#sponsors-content").append(sponsorContent);
+}
+
+buildSponsorRow = function(items) {
+    var totalItems = items.length;
+    var offset = '';
+    var rowContent = '';
+    switch(totalItems) {
+        case 1:
+            offset = 'col-md-offset-4 ';
+            break;
+        case 2:
+            offset = 'col-md-offset-2 ';
+            break;
+        default:
+            offset = ''
+    }
+
+    for (var i = 0; i < totalItems; i++) {
+        rowContent += "<div class='" + (i == 0 ? offset : "")  + "col-md-4 sponsor-padding'><a href='" + items[i]["link"] +
+            "' target='_blank'><div class='img-container'><img src='" + items[i]["img"] + "' alt='" + items[i]["alt-text"] +
+            "' class='img-responsive sponsor center-block'></a></div></div>";
+    }
+
+    return rowContent;
 }
