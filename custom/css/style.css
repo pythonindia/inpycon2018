@@ -2030,8 +2030,7 @@ ul.faq-answer li a:hover{
 
 
 #bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul > li:nth-child(2) > a.dropdown-toggle{
-  display: none;
-}
+  display: none;}
 
 #bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul{
   display: block;
@@ -2044,4 +2043,7 @@ ul.faq-answer li a:hover{
 
 .navbar-custom ul.nav ul.dropdown-menu li a{
   white-space: normal;
+}
+.navbar-custom ul.nav ul.dropdown-menu li a {
+  text-align: center;
 }
