@@ -37,6 +37,13 @@
             "img":"img/sponsors/soroco.png",
             "link": "http://www.soroco.com/"
         }
+    ],  
+    "Silver":[  
+        {   
+            "alt-text":"FOSSEE",    
+            "img":"img/sponsors/fossee.png",    
+            "link": "https://fossee.in/"    
+        }   
     ],
     "Associate":[
         {
