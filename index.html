@@ -113,24 +113,44 @@
       <span class="icon-bar"></span>
       </button>
       </div>
-
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav nav-justified">
+        <ul class="nav navbar-nav">
           <li class="active"><a href="#home">Home</a></li>
           <li><a href="#journey">Journey</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#conference">Schedule</a></li>
+          <li><a href="#conference ">Schedule</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Speakers<span class="caret"></span>
+            <ul class="dropdown-menu">
+              <li><a href="#speakers">Keynotes</a></li>
+              <li><a href="#">All Speakers</a></li>
+            </ul>
+          </li>
           <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#tickets">Tickets</a></li>
           <li><a href="https://in.pycon.org/blog/">Blog</a></li>
-          <li><a href="#venue">Venue</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Attend<span class="caret"></span>
+            <ul class="dropdown-menu">
+              <li><a href="#tickets">Tickets</a></li>
+              <li><a href="#venue">Venue</a></li>
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Traveling to Hyderabad</a></li>
+            </ul>
+          </li>
           <li><a href="faq.html">FAQ</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-          <li><a href="coc.html">COC</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span>
+            <ul class="dropdown-menu">
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="coc.html">COC</a></li>
+            </ul>
+          </li>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+
 
   <!-- Section: intro -->
   <section id="home" class="pycon2018-intro">
@@ -179,7 +199,8 @@
              <!-- <a class="button button--quidel button--round-s center-block">Buy Tickets</a> -->
           </div>
           <div class="container">
-            <div class="col-sm-offset-4 col-sm-4 button-margin"><a href="#tickets" class="button button--quidel button--round-s center-block">Buy Tickets <br/></a></div>
+            <div class="col-md-6 button-margin"><a href="https://in.pycon.org/cfp/2018/proposals/" class="button button--quidel button--round-s center-block">View Proposals <br/> </a></div>
+            <div class="col-md-6 button-margin"><a href="#tickets" class="button button--quidel button--round-s center-block">Buy Tickets <br/></a></div>
           </div>
         </div>
     </div>
