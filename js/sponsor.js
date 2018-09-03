@@ -9,7 +9,7 @@ constructSponsorBlock = function(data){
         var sponsorContent = "";
 
         $.each(data, function(key, value) {
-            sponsorContent += "<br /><br /><h3 class='text-center' style='font-size:40px;'>" + key + "</h3>";
+            sponsorContent += "<h3 class='text-center'>" + key + "</h3>";
             for(var i = 0; i < value.length; i += 3) {
                 sponsorGroups = value.slice(i, i+3);
                 sponsorContent += "<div class='row'>"

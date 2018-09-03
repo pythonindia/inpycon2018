@@ -45,12 +45,25 @@
             "class": "livehealth"
         }
     ],
+    "Silver":[
+        {
+            "alt-text":"FOSSEE",
+            "img":"img/sponsors/fossee.png",
+            "link": "https://fossee.in/"
+        }
+    ],
     "Associate":[
         {
             "alt-text":"Reckonsys",
             "img":"img/sponsors/reckonsys.png",
             "link": "https://www.reckonsys.com/",
             "class": "rechonsys"
+        },
+        {
+            "alt-text": "Pipal Academy",
+            "img": "img/sponsors/pipal.png",
+            "link": "https://pipal.in",
+            "class": "pipal"
         }
     ]
 }

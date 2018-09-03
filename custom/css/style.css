@@ -1298,6 +1298,11 @@ ul.faq-answer li a:hover {
     padding-bottom: 10px;
 }
 
+#sponsors-content h3 {
+    margin-top: 20px;
+    font-size:40px;
+}
+
 @media screen and (min-width: 900px) {
     .gojek {
         margin-top: 10px;
@@ -1309,6 +1314,9 @@ ul.faq-answer li a:hover {
 
     .livehealth {
         margin-top: 35px;
+    }
+    .rechonsys {
+        margin-top: 50px;
     }
 }
 
