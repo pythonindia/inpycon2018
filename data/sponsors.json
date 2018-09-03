@@ -37,12 +37,24 @@
             "img":"img/sponsors/soroco.png",
             "link": "http://www.soroco.com/"
         }
+    ],  
+    "Silver":[  
+        {   
+            "alt-text":"FOSSEE",    
+            "img":"img/sponsors/fossee.png",    
+            "link": "https://fossee.in/"    
+        }   
     ],
     "Associate":[
         {
             "alt-text":"Reckonsys",
             "img":"img/sponsors/reckonsys.png",
             "link": "https://www.reckonsys.com/"
+        },
+        {
+            "alt-text": "Pipal Academy",
+            "img": "img/sponsors/pipal.png",
+            "link": "https://pipal.in"
         }
     ]
 }
