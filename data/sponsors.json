@@ -49,7 +49,8 @@
         {
             "alt-text":"FOSSEE",
             "img":"img/sponsors/fossee.png",
-            "link": "https://fossee.in/"
+            "link": "https://fossee.in/",
+            "class": "fossee"
         }
     ],
     "Associate":[
@@ -57,7 +58,7 @@
             "alt-text":"Reckonsys",
             "img":"img/sponsors/reckonsys.png",
             "link": "https://www.reckonsys.com/",
-            "class": "rechonsys"
+            "class": "reckonsys"
         },
         {
             "alt-text": "Pipal Academy",

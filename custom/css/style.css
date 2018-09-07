@@ -1307,16 +1307,26 @@ ul.faq-answer li a:hover {
     .gojek {
         margin-top: 10px;
     }
-
     .pramati {
-        margin-top: 35px;
+        margin-top: 15px;
+        max-height: 80px;
     }
-
+    .soroco {
+        max-height: 120px;
+    }
     .livehealth {
-        margin-top: 35px;
+        margin-top: 15px;
+        max-height: 80px;
     }
-    .rechonsys {
-        margin-top: 50px;
+    .fossee {
+        max-height: 70px;
+    }
+    .reckonsys {
+        margin-top: 20px;
+        max-height: 50px;
+    }
+    .pipal {
+        max-height: 100px;
     }
 }
 
