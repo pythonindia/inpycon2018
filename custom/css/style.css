@@ -1117,8 +1117,12 @@ footer a:focus {
 }
 
 #coc h2,
-#faq h2 {
+#faq h2, h3 {
     color: #e23e89;
+}
+
+#faq a {
+    color: #337ab7;
 }
 
 #logo {
