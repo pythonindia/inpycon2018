@@ -215,6 +215,11 @@ a:focus {
     }
 }
 
+/* Timeline navigation buttons - hidden for large screen devices*/
+.cd-timeline-navigation {
+  display:none;
+}
+
 #load {
     z-index: 9999;
     background-color: #FF4136;
@@ -1005,6 +1010,11 @@ footer a:focus {
 
     .pycon2018_panel1 .nav-tabs > li a {
         padding: 10px 20px !important;
+    }
+
+    /* Timeline navigation buttons - visible for small screen devices*/
+    ul.cd-timeline-navigation {
+      display:block;
     }
 }
 
