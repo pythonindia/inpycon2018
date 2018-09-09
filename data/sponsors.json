@@ -1,60 +1,70 @@
 {
     "Platinum":[
         {
-            "alt-text":"AQR",
-            "img":"img/sponsors/aqr.jpg",
-            "link": "https://www.aqr.com/"
-        },
-        {
             "alt-text":"D. E. Shaw India",
             "img":"img/sponsors/DESCO_Logo_2c.jpg",
-            "link": "http://www.deshawindia.com/"
+            "link": "http://www.deshawindia.com/",
+            "class": "deshawindia"
         },
     	{
             "alt-text":"Go-Jek",
             "img":"img/sponsors/go-jek.png",
-            "link": "https://www.go-jek.com/"
+            "link": "https://www.go-jek.com/",
+            "class": "gojek"
     	},
         {
             "alt-text":"Indeed",
             "img":"img/sponsors/indeed.png",
-            "link": "https://www.indeed.jobs/career/JobListHyderabad"
+            "link": "https://www.indeed.jobs/career/JobListHyderabad",
+            "class": "indeed"
+        },
+        {
+            "alt-text":"AQR",
+            "img":"img/sponsors/aqr.jpg",
+            "link": "https://www.aqr.com/",
+            "class": "aqr"
         }
     ],
     "Gold":[
         {
             "alt-text":"Pramati Technologies",
             "img":"img/sponsors/Pramati.png",
-            "link": "https://www.pramati.com/"
-        },
-        {
-            "alt-text":"LiveHealth",
-            "img":"img/sponsors/LiveHealth_logo.png",
-            "link": "https://livehealth.in"
+            "link": "https://www.pramati.com/",
+            "class": "pramati"
         },
         {
             "alt-text":"Soroco",
             "img":"img/sponsors/soroco.png",
-            "link": "http://www.soroco.com/"
+            "link": "http://www.soroco.com/",
+            "class": "soroco"
+        },
+        {
+            "alt-text":"LiveHealth",
+            "img":"img/sponsors/LiveHealth_logo.png",
+            "link": "https://livehealth.in",
+            "class": "livehealth"
         }
-    ],  
-    "Silver":[  
-        {   
-            "alt-text":"FOSSEE",    
-            "img":"img/sponsors/fossee.png",    
-            "link": "https://fossee.in/"    
-        }   
+    ],
+    "Silver":[
+        {
+            "alt-text":"FOSSEE",
+            "img":"img/sponsors/fossee.png",
+            "link": "https://fossee.in/",
+            "class": "fossee"
+        }
     ],
     "Associate":[
         {
             "alt-text":"Reckonsys",
             "img":"img/sponsors/reckonsys.png",
-            "link": "https://www.reckonsys.com/"
+            "link": "https://www.reckonsys.com/",
+            "class": "reckonsys"
         },
         {
             "alt-text": "Pipal Academy",
             "img": "img/sponsors/pipal.png",
-            "link": "https://pipal.in"
+            "link": "https://pipal.in",
+            "class": "pipal"
         }
     ]
 }
