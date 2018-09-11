@@ -928,6 +928,10 @@ footer a:focus {
     margin-top: 0;
 }
 
+.nav-logo {
+    width: 150px;
+}
+
 /* Media queries */
 
 @media screen and (min-width:767px) {
