@@ -1602,3 +1602,20 @@ ul.faq-answer li a:hover {
 #bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul > li:nth-child(2) > a.dropdown-toggle {
   display: none;
 }
+
+/* Hotel cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#faq .card a {
+  color: #FF0000;
+}
+
+#faq .card a:hover {
+  color: #B50000;
+}
