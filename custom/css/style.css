@@ -102,6 +102,7 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu li a {
     padding: 10px 20px;
+    background-color: white;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
