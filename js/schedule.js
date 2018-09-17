@@ -23,7 +23,7 @@ createScheduleForADay = function (item) {
     var dayContent = '';
     for(i = 0; i < item.length; i ++){
         if(item[i].Tracks.length == 1 &&
-            (["CONFERENCE REGISTRATION", "WORKSHOP REGISTRATION", "LUNCH"].indexOf(item[i].Tracks[0].Title) >= 0)){
+            (["CONFERENCE REGISTRATION", "WORKSHOP REGISTRATION", "LUNCH", "Morning Tea Break", "Evening Tea Break"].indexOf(item[i].Tracks[0].Title) >= 0)){
             dayContent += createLunchBreakfastRow(item[i]);
         }
         else {
@@ -57,14 +57,16 @@ createTracksRow = function(item) {
     var rowContent = '';
 
     rowContent += "<div class='row'>"+
-                    "<div class='col-xs-12 col-sm-12 col-lg-3 time schedule-column'>"+
+                    "<div class='col-xs-12 col-lg-3 time schedule-column'>"+
                         "<span class='center-align'>"+
                             item.Time+
                         "</span>"+
                     "</div>";
 
+    var gridSize = Math.floor(9 / item.Tracks.length);
+
     for (var i = 0; i < item.Tracks.length; i++) {
-        rowContent += "<div class='col-xs-12 col-lg-2 schedule-column'>"+
+        rowContent += "<div class='col-xs-12 col-lg-" + gridSize + " schedule-column text-center'>"+
                             "<strong>"+
                                 "<a href='"+item.Tracks[i].Url+"' target='_blank'"+
                                     "title='"+item.Tracks[i].Title+"'>"+

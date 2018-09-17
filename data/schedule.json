@@ -1,15 +1,18 @@
 {
-    "Schedule": [{
+    "Schedule": [
+        {
             "Date": "05-Oct-2018",
-            "TimeTable": [{
+            "TimeTable": [
+                {
                     "Time": "08:00 AM - 09:00 AM",
-                    "Tracks": [{
-                        "Title": "WORKSHOP REGISTRATION"
-                    }]
+                    "Tracks": [
+                        { "Title": "WORKSHOP REGISTRATION"}
+                    ]
                 },
                 {
                     "Time": "10:00 AM - 01:00 PM",
-                    "Tracks": [{
+                    "Tracks": [
+                        {
                             "Title": "Exploring PyTorch for AI assistance in Medical Imaging",
                             "Speaker": "Abhishek Kumar",
                             "Hall": "Hall 1",
@@ -37,13 +40,14 @@
                 },
                 {
                     "Time": "01:00 PM - 02:00 PM",
-                    "Tracks": [{
-                        "Title": "LUNCH"
-                    }]
+                    "Tracks": [
+                        { "Title": "LUNCH"}
+                    ]
                 },
                 {
                     "Time": "02:00 PM - 05:00 PM",
-                    "Tracks": [{
+                    "Tracks": [
+                        {
                             "Title": "Free and Open Source libraries of Python for Geo spatial analysis",
                             "Speaker": "Nishad KA",
                             "Hall": "Hall 1",
@@ -65,6 +69,428 @@
                             "Title": "Scaling Python up and out with Numba and Dask",
                             "Speaker": "Travis Oliphant",
                             "Hall": "Hall 4",
+                            "Url": "#"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Date": "06-Oct-2018",
+            "TimeTable": [
+                {
+                    "Time": "08:00 AM - 09:30 AM",
+                    "Tracks": [
+                        { "Title": "CONFERENCE REGISTRATION"}
+                    ]
+                },
+                {
+                    "Time": "09:45 AM - 10:00 AM",
+                    "Tracks": [
+                        {
+                            "Title": "Opening Address",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "10:00 AM - 11:00 AM",
+                    "Tracks": [
+                        {
+                            "Title": "Keynote 1",
+                            "Speaker": "Armin Ronacher",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "11:00 AM - 11:15 AM",
+                    "Tracks": [
+                        { "Title": "Morning Tea Break"}
+                    ]
+                },
+                {
+                    "Time": "11:20 AM - 11:55 AM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "11:55 AM - 12:30 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Sponsor Talk",
+                            "Speaker": "DE Shaw",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "12:30 PM - 01:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "01:00 PM - 02:00 PM",
+                    "Tracks": [
+                        { "Title": "LUNCH"}
+                    ]
+                },
+                {
+                    "Time": "02:00 PM - 02:35 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "02:35 PM - 03:10 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Sponsor Talk",
+                            "Speaker": "Indeed",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "03:10 PM - 03:45 PM",
+                    "Tracks": [
+                        {
+                            "Title": "PSF Talk",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "03:45 PM - 04:15 PM",
+                    "Tracks": [
+                        { "Title": "Evening Tea Break"}
+                    ]
+                },
+                {
+                    "Time": "04:15 PM - 05:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Lightning Talks",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "05:00 PM - 06:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Keynote 2",
+                            "Speaker": "Sidu Ponnapa",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Date": "07-Oct-2018",
+            "TimeTable": [
+                {
+                    "Time": "08:00 AM - 09:30 AM",
+                    "Tracks": [
+                        { "Title": "CONFERENCE REGISTRATION"}
+                    ]
+                },
+                {
+                    "Time": "10:00 AM - 11:00 AM",
+                    "Tracks": [
+                        {
+                            "Title": "Keynote 3",
+                            "Speaker": "Travis Oliphant",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "11:00 AM - 11:15 AM",
+                    "Tracks": [
+                        { "Title": "Morning Tea Break"}
+                    ]
+                },
+                {
+                    "Time": "11:20 AM - 11:55 AM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "11:55 AM - 12:30 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Sponsor Talk",
+                            "Speaker": "AQR",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "12:30 PM - 01:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "01:00 PM - 02:00 PM",
+                    "Tracks": [
+                        { "Title": "LUNCH"}
+                    ]
+                },
+                {
+                    "Time": "02:00 PM - 02:35 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "02:35 PM - 03:10 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Sponsor Talk",
+                            "Speaker": "Go-Jek",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "03:10 PM - 03:45 PM",
+                    "Tracks": [
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 1",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "TBD",
+                            "Speaker": "TBD",
+                            "Hall": "Hall 2",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "03:45 PM - 04:15 PM",
+                    "Tracks": [
+                        { "Title": "Evening Tea Break"}
+                    ]
+                },
+                {
+                    "Time": "04:15 PM - 05:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Lightning Talks",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "05:00 PM - 06:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Keynote 4",
+                            "Speaker": "Carol Willing",
+                            "Hall": "Main Hall",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "06:00 PM - 06:30 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Closing Address",
+                            "Speaker": "TBD",
+                            "Hall": "Main Hall",
                             "Url": "#"
                         }
                     ]
