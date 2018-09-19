@@ -43,6 +43,12 @@
             "img":"img/sponsors/LiveHealth_logo.png",
             "link": "https://livehealth.in",
             "class": "livehealth"
+        },
+        {
+            "alt-text":"IBM",
+            "img":"img/sponsors/ibm.png",
+            "link": "http://www.ibm.com/in",
+            "class": "ibm"
         }
     ],
     "Silver":[
