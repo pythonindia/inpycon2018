@@ -85,7 +85,7 @@
                     ]
                 },
                 {
-                    "Time": "09:45 AM - 10:00 AM",
+                    "Time": "09:30 AM - 09:45 AM",
                     "Tracks": [
                         {
                             "Title": "Opening Address",
@@ -96,7 +96,7 @@
                     ]
                 },
                 {
-                    "Time": "10:00 AM - 11:00 AM",
+                    "Time": "09:45 AM - 10:45 AM",
                     "Tracks": [
                         {
                             "Title": "Keynote 1",
@@ -107,7 +107,7 @@
                     ]
                 },
                 {
-                    "Time": "11:00 AM - 11:15 AM",
+                    "Time": "10:45 AM - 11:15 AM",
                     "Tracks": [
                         { "Title": "Morning Tea Break"}
                     ]
@@ -146,7 +146,7 @@
                         },
                         {
                             "Title": "Sponsor Talk",
-                            "Speaker": "DE Shaw",
+                            "Speaker": "TBD",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
@@ -221,7 +221,7 @@
                         },
                         {
                             "Title": "Sponsor Talk",
-                            "Speaker": "Indeed",
+                            "Speaker": "TBD",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
@@ -237,7 +237,7 @@
                     "Time": "03:10 PM - 03:45 PM",
                     "Tracks": [
                         {
-                            "Title": "PSF Talk",
+                            "Title": "TBD",
                             "Speaker": "TBD",
                             "Hall": "Main Hall",
                             "Url": "#"
@@ -296,7 +296,7 @@
                     ]
                 },
                 {
-                    "Time": "10:00 AM - 11:00 AM",
+                    "Time": "09:45 AM - 10:45 AM",
                     "Tracks": [
                         {
                             "Title": "Keynote 3",
@@ -307,7 +307,7 @@
                     ]
                 },
                 {
-                    "Time": "11:00 AM - 11:15 AM",
+                    "Time": "10:45 AM - 11:15 AM",
                     "Tracks": [
                         { "Title": "Morning Tea Break"}
                     ]
@@ -346,7 +346,7 @@
                         },
                         {
                             "Title": "Sponsor Talk",
-                            "Speaker": "AQR",
+                            "Speaker": "TBD",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
@@ -421,7 +421,7 @@
                         },
                         {
                             "Title": "Sponsor Talk",
-                            "Speaker": "Go-Jek",
+                            "Speaker": "TBD",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
