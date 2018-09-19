@@ -1549,7 +1549,7 @@ ul.faq-answer li a:hover {
     color: #29487d;
 }
 
-.speaker-cards .fa-file-alt {
+.speaker-cards .fa-file {
     color: #888;
 }
 
@@ -1590,15 +1590,15 @@ ul.faq-answer li a:hover {
     position: relative;
 }
 
-.speaker-cards .fa-globe-americas:hover {
+.speaker-cards .fa-globe:hover {
     color: #607d8b;
 }
 
-.speaker-cards .fa-globe-americas {
+.speaker-cards .fa-globe {
     padding: 0 5px;
 }
 
-.speaker-cards .fa-map-marked-alt {
+.speaker-cards .fa-map-marker {
     color: grey;
     line-height: 2.3em;
     padding-right: 5px;
