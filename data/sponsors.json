@@ -58,12 +58,12 @@
             "link": "https://fossee.in/",
             "class": "fossee"
         },
-		{
-			"alt-text":"ZeOmega",
+	{
+	    "alt-text":"ZeOmega",
             "img":"img/sponsors/zeomega.png",
             "link": "http://www.zeomega.com/",
             "class": "zeomega"
-		}
+	}
     ],
     "Associate":[
         {
