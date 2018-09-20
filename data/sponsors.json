@@ -78,12 +78,5 @@
             "link": "https://pipal.in",
             "class": "pipal"
         }
-    ],
-    "Silver":[
-        {
-            "alt-text":"FOSSEE",
-            "img":"img/sponsors/fossee.png",
-            "link": "https://fossee.in/"
-        }
     ]
 }
