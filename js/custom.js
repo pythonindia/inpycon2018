@@ -10,17 +10,6 @@
 
 	//jQuery to collapse the navbar on scroll
 	$(window).scroll(function() {
-		if ($(".navbar").offset().top > 50) {
-			$(".navbar .container").css("width","1170px");
-			$("#logo").css("display","inline-block");
-			$("#logo").css("float","left");
-			$(".navbar-fixed-top").addClass("top-nav-collapse");
-		} else {
-			$(".navbar .container").css("width","970px");
-			$("#logo").css("display","none");
-			$(".navbar-fixed-top").removeClass("top-nav-collapse");
-		}
-
 		// share-bar-ribbon class toggle
 		if($(".share-bar-ribbon").offset().top > $("#venue").offset().top - $(".share-bar-ribbon").outerHeight()){
     			$(".share-bar-ribbon").removeClass('share-bar-ribbon--dark').addClass('share-bar-ribbon--light');
@@ -28,8 +17,6 @@
     		else{
     		 	$(".share-bar-ribbon").removeClass('share-bar-ribbon--light').addClass('share-bar-ribbon--dark');
     		}
-
-
 	});
 
 	//jQuery for page scrolling feature - requires jQuery Easing plugin

@@ -14,6 +14,8 @@
 
   <!-- Bootstrap Core CSS -->
   <link href="custom/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111617773-1"></script>
   <script>
@@ -43,13 +45,11 @@
   </div> -->
 
 
-  <nav class="navbar navbar-custom navbar-fixed-top" style="-webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, .1);">
-
-
+  <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse">
+    <div class="container" style="width: 1170px;">
       <a class="navbar-brand" rel="home" href="https://in.pycon.org/2018/" title="PyCon India 2018">
-        <img src="./img/banner-logo.png" class="logo" alt="banner-logo" style="width: 150px; display: inline-block;">
+        <img src="./img/banner-logo.png" class="nav-logo" alt="banner-logo">
       </a>
-
       <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
       <span class="sr-only">Toggle navigation</span>
@@ -59,28 +59,45 @@
       </button>
       </div>
 
-
-     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav nav-justified">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
           <li><a href="index.html#home">Home</a></li>
           <li><a href="index.html#journey">Journey</a></li>
-          <li><a href="index.html#speakers">Speakers</a></li>
-          <!-- <li><a href="#conference">Schedule</a></li> -->
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Speakers<span class="caret"></span>
+            <ul class="dropdown-menu">
+              <li><a href="index.html#speakers">Keynotes</a></li>
+              <li><a href="speakers.html">All Speakers</a></li>
+            </ul>
+          </li>
           <li><a href="index.html#sponsors">Sponsors</a></li>
-          <li><a href="index.html#tickets">Tickets</a></li>
           <li><a href="https://in.pycon.org/blog/">Blog</a></li>
-          <li><a href="index.html#venue">Venue</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Attend<span class="caret"></span>
+            <ul class="dropdown-menu">
+              <li><a href="index.html#tickets">Tickets</a></li>
+              <li><a href="index.html#venue">Venue</a></li>
+              <li><a href="travel.html">Traveling to Hyderabad</a></li>
+              <li><a href="hotels.html">Hotels</a></li>
+              <li><a href="https://goo.gl/forms/iqZ8I3xfzcXXLxQq2">Childcare</a></li>
+            </ul>
+          </li>
           <li class="active"><a href="faq.html">FAQ</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-          <li><a href="coc.html">COC</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span>
+            <ul class="dropdown-menu">
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="https://goo.gl/forms/R4g5sxjZIXezvp7z1">Community Spaces</a></li>
+              <li><a href="coc.html">COC</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
-
+    </div>
   </nav>
-
-
-  <!-- Section: about -->
+    <!-- Section: about -->
 
   <section id="faq" class="home-section splitsection" style="margin-top:0">
 
@@ -100,7 +117,7 @@
           <h5><b>Q. What is the venue of PyCon India 2018?</b></h5>
           <ul class="faq-answer">
               <li>- The venue of the Workshop and Conference (5th - 7th Oct, '18) is on Hyderabad International Convention Centre(HICC), Kondapur, Izzathnagar, Kothaguda, Hyderabad</li>
-              <li>- The venue for Devsprints (8th - 9th Oct, '18) is T-Hub, IIIT-Hyderabad Campus, Gachibowli, Hyderabad</li>
+              <li>- The venue for Devsprints (8th - 9th Oct, '18) is DBS Office, Waverock, Nanakram Guda, Hyderabad</li>
           </ul>
         </div>
         <div class="pycon-faq">
@@ -118,7 +135,7 @@
         <div class="pycon-faq">
           <h5><b>Q. I want to volunteer for the conference. What should I do?</b></h5>
           <ul class="faq-answer">
-              <li>Check out the <a href="volunteer.html">Volunteer Page</a> to know about the roles and responsibilites. Fill the <a href="https://goo.gl/forms/EhBMHRflWmsGXlYi2">volunteer form</a> and subscibe to PyCon India <a href="https://mail.python.org/mailman/listinfo/inpycon">mailing list</a> for updates.</li>
+              <li>Check out the <a href="volunteer.html">Volunteer Page</a> to know about the roles and responsibilities. Fill the <a href="https://goo.gl/forms/EhBMHRflWmsGXlYi2">volunteer form</a> and subscribe to PyCon India <a href="https://mail.python.org/mailman/listinfo/inpycon">mailing list</a> for updates.</li>
           </ul>
         </div>
         <div class="pycon-faq">
@@ -165,7 +182,7 @@
         <div class="pycon-faq">
           <h5><b>Q. Where can I stay while in Hyderabad for the conference?</b> </h5>
           <ul class="faq-answer">
-              <li>We are in the process of curating a list of Hotels accessible to the venue. We will be posting about it shortly once the ticket sales is out.</li>
+              <li>We have tied up with OYO Rooms to provide hotels at affordable rates. Please check <a href="https://in.pycon.org/blog/2018/announcing-oyo-rooms-as-accomodation-partner.html">this blog post</a> for more information.</li>
           </ul>
         </div>
         <!-- <div class="pycon-faq">
@@ -189,13 +206,13 @@
         </div>
           <h5><b>Q. Is there a different ticket for Workshop?</b></h5>
           <ul class="faq-answer">
-            <li>Yes tickets for Workshop will be made live soon. Only the Conference tickets for 6th-7th Oct '18 are available now.</a></li>
+            <li>Yes. Workshop tickets are separate from conference tickets. Get them at this <a href="https://in.pycon.org/2018/#tickets">link</a>.</a></li>
           </ul>
         </div>
         <div class="pycon-faq">
           <h5><b>Q. There is a change in my plan so I can't attend the Conference. Can I get a refund?</b></h5>
           <ul class="faq-answer">
-            <li>No you can't get a refund for the tickets you have purchased. But you can transfer your ticket to any willing attendee. To transfer your tickets use this <a href="https://in.explara.com/manage-tickets">link</a>.</li>
+            <li>You can Transfer your tickets. Transfer can be done until Sept 30, 2018. To Transfer/Cancel your tickets write an email to <a href="mailto:tickets@hydpy.org">tickets@hydpy.org</a>.</li>
           </ul>
         </div>
         <div class="pycon-faq">
@@ -211,9 +228,21 @@
           </ul>
         </div>
         <div class="pycon-faq">
-          <h5><b>Q. I am a student and I need an official letter or invitation which I can show to my college to attend the conference. Is it possible to get something like that?</b></h5>
+          <h5><b>Q. I have bought the ticket for morning workshop but I want to attend evening workshop can I do that?</b></h5>
           <ul class="faq-answer">
-            <li>Yes we will be sending out email invitations on request. We will open a form shortly where you can request an invitation.</a></li>
+            <li>Please cancel the ticket and reregister. The participant will just incur the loss of ticketing platform.</a></li>
+          </ul>
+        </div>
+        <div class="pycon-faq">
+          <h5><b>Q. I have bought the workshop ticket am I eligible to participate in DevSprint?</b></h5>
+          <ul class="faq-answer">
+            <li>No. Conference ticket is required.</a></li>
+          </ul>
+        </div>
+        <div class="pycon-faq">
+          <h5><b>Q. Can I switch between the workshop in session time?</b></h5>
+          <ul class="faq-answer">
+            <li>No. Each track is planned at their full capacity.</a></li>
           </ul>
         </div>
         <div class="pycon-faq">
@@ -225,7 +254,7 @@
         <div class="pycon-faq">
           <h5><b>Q. My question is not listed here / I am still unclear about a few things. Whom should I contact?</b></h5>
           <ul class="faq-answer">
-              <li> Please send an email to <a href="mailto:contact@in.pycon.org">contact@in.pycon.org</a>.</li>
+              <li> If its a general query send it to <a href="mailto:contact@in.pycon.org">contact@in.pycon.org</a>. For all ticket related queries please write to <a href="mailto:tickets@hydpy.org">tickets@hydpy.org</a>.</li>
           </ul>
         </div>
       </div>
@@ -247,21 +276,10 @@
           <br>
           <br>
           <ul class="list-inline">
-            <li>
-              <a href="https://www.facebook.com/PyConIndia" target="_blank">
-                <img src="img/fb.png" alt="image" class="icon">
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/pyconindia" target="_blank">
-                <img src="img/twitt.png" alt="image" class="icon">
-              </a>
-            </li>
-            <li>
-              <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">
-                <img src="img/mail.png" alt="image" class="icon">
-              </a>
-            </li>
+            <li><a href="https://www.facebook.com/PyConIndia" target="_blank" class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/pyconindia" target="_blank" class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank" class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:tickets@hydpy.org" class="icon"><i class="fa fa-ticket" aria-hidden="true"></i></a></li>
           </ul>
         </div>
         <div class="col-md-4">

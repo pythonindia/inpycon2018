@@ -1,0 +1,28 @@
+[Transfers]
+Hi Team,
+My name is {name}. Due to some unavoidable circumstances I won't be able to Attend PyCon India 2018. So I want to Transfer my Ticket. Here are the details of my Ticket
+
+Order No - 
+Registration No - 
+
+Please Transfer the ticket to {New Buyer name}. Find the details below
+
+First Name:
+Last Name:
+Mobile Number:
+Email Address:
+T-Shirt Size:
+Occupation:
+College/Organisation you represent:
+Years in College/Experience:
+
+*Note: If there are multiple people please send all the Attendee details.
+
+[Cancellations]
+Hi Team,
+My name is {name}. Due to some unavoidable circumstances I won't be able to Attend PyCon India 2018. If possible please Cancel my ticket and Transfer it to someone willing to attend the Conference. Here are the details of my Ticket
+
+Order No - 
+Registration No - 
+
+I am fully aware that cancellation is possible only if there is people waiting in the queue to buy a ticket.
