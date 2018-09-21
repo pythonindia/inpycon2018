@@ -1333,7 +1333,11 @@ ul.faq-answer li a:hover {
     .soroco {
         max-height: 120px;
     }
-    .fossee {
+    .vmware {
+      margin-top: 20px;
+      max-height: 80px;
+    }
+    .silver {
         max-height: 70px;
     }
     .zeomega {

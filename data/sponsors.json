@@ -51,6 +51,12 @@
             "class": "gold"
         },
         {
+            "alt-text":"VMware",
+            "img":"img/sponsors/VMware_logo.jpg",
+            "link": "https://www.vmware.com/in/company.html",
+            "class": "vmware"
+        },
+        {
             "alt-text":"Corteva",
             "img":"img/sponsors/corteva.png",
             "link": "https://www.corteva.com/",
@@ -62,13 +68,19 @@
 	    "alt-text":"FOSSEE",
 	    "img":"img/sponsors/fossee.png",
 	    "link": "https://fossee.in/",
-	    "class": "fossee"
+	    "class": "silver"
 	},
 	{
 	    "alt-text":"ZeOmega",
 	    "img":"img/sponsors/zeomega.png",
 	    "link": "http://www.zeomega.com/",
 	    "class": "zeomega"
+	},
+	{
+	    "alt-text":"DBS",
+	    "img":"img/sponsors/DBS_Logo.png",
+	    "link": "https://www.dbs.com/in/index/default.page",
+	    "class": "silver"
 	}
     ],
     "Associate":[
