@@ -30,7 +30,7 @@
             "alt-text":"Pramati Technologies",
             "img":"img/sponsors/Pramati.png",
             "link": "https://www.pramati.com/",
-            "class": "pramati"
+            "class": "gold"
         },
         {
             "alt-text":"Soroco",
@@ -42,13 +42,19 @@
             "alt-text":"LiveHealth",
             "img":"img/sponsors/LiveHealth_logo.png",
             "link": "https://livehealth.in",
-            "class": "livehealth"
+            "class": "gold"
         },
         {
             "alt-text":"IBM",
             "img":"img/sponsors/ibm.png",
             "link": "http://www.ibm.com/in",
-            "class": "ibm"
+            "class": "gold"
+        },
+        {
+            "alt-text":"Corteva",
+            "img":"img/sponsors/corteva.png",
+            "link": "https://www.corteva.com/",
+            "class": "gold"
         }
     ],
     "Silver":[

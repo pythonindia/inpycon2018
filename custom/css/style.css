@@ -1324,25 +1324,20 @@ ul.faq-answer li a:hover {
 
 @media screen and (min-width: 900px) {
     .gojek {
-        margin-top: 10px;
+        margin-top: 20px;
     }
-    .pramati {
+    .gold {
         margin-top: 15px;
         max-height: 80px;
     }
     .soroco {
         max-height: 120px;
     }
-    .livehealth {
-        margin-top: 15px;
-        max-height: 80px;
-    }
-    .ibm {
-        margin-top: 15px;
-        max-height: 80px;
-    }
     .fossee {
         max-height: 70px;
+    }
+    .zeomega {
+        margin-top: 15px;
     }
     .reckonsys {
         margin-top: 20px;
