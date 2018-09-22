@@ -1323,8 +1323,12 @@ ul.faq-answer li a:hover {
 }
 
 @media screen and (min-width: 900px) {
-    .gojek {
-        margin-top: 20px;
+    .platinum {
+        margin-top: 15px;
+        max-height: 100px;
+    }
+    .aqr {
+        max-height: 120px;
     }
     .gold {
         margin-top: 15px;
@@ -1343,7 +1347,7 @@ ul.faq-answer li a:hover {
     .zeomega {
         margin-top: 15px;
     }
-    .reckonsys {
+    .associate {
         margin-top: 20px;
         max-height: 50px;
     }
