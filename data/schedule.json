@@ -116,22 +116,22 @@
                     "Time": "11:20 AM - 11:50 AM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "How Helpshift built machine learning platform using Python at large scale",
+                            "Speaker": "Shyam Shinde",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/how-helpshift-built-machine-learning-platform-using-python-at-large-scale~e0mLa/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Large scale web crawling using Python",
+                            "Speaker": "Anand B Pillai and Noufal Ibrahim",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/large-scale-web-crawling-using-python~bkl6d/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Creating 3rd generation Web APIs using Hydra and Hydrus",
+                            "Speaker": "Akshay Dahiya",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/creating-3rd-generation-web-apis-using-hydra-and-hydrus~dBpYa/"
                         }
                     ]
                 },
@@ -139,22 +139,22 @@
                     "Time": "11:55 AM - 12:25 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Python Project Workflows - Continuous Deployment Friendly",
+                            "Speaker": "Abhijit Gadgil",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/python-project-workflows-continuous-deployment-friendly~bq8ya/"
                         },
                         {
-                            "Title": "Sponsor Talk",
-                            "Speaker": "TBD",
+                            "Title": "Sponsor Talk - DEShaw<br/> Pyflyby: Automatic imports for Python",
+                            "Speaker": "Karl Chen",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Language Model (Text Analysis) using Python from scratch",
+                            "Speaker": "Divya Choudhary",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/language-model-text-analysis-using-python-from-scratch~bqm0b/"
                         }
                     ]
                 },
@@ -162,22 +162,22 @@
                     "Time": "12:30 PM - 01:00 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Inside the World's Largest Python Course on Coursera",
+                            "Speaker": "Charles Severance",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/inside-the-worlds-largest-python-course-on-coursera~bomYe/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Managing flood risk in this modern age - An Introduction to Geospatial Analytics with Python",
+                            "Speaker": "Arijit Saha and Atul Singh",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/managing-flood-risk-in-this-modern-age-an-introduction-to-geospatial-analytics-with-python~avz0a/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Speed up your Python modules using Rust",
+                            "Speaker": "Abhiram Ravikumar",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/speed-up-your-python-modules-using-rust~elNrb/"
                         }
                     ]
                 },
@@ -191,22 +191,22 @@
                     "Time": "02:00 PM - 02:30 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "The Growth of the Python Community in Africa and How Zimbabwe is Building One of the Biggest Artificial Intelligence Labs in the World",
+                            "Speaker": "Marlene Mhangami",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/the-growth-of-the-python-community-in-africa-and-how-zimbabwe-is-building-one-of-the-biggest-artificial-intelligence-labs-in-the-world~bWRQa/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Satellite Image Processing with Python",
+                            "Speaker": "Shubham Sharma",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/satellite-image-processing-with-python~dJKKe/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Metaclasses and decorators: a match made in space",
+                            "Speaker": "Ishan Srivastava",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/metaclasses-and-decorators-a-match-made-in-space~ervpe/"
                         }
                     ]
                 },
@@ -214,22 +214,22 @@
                     "Time": "02:35 PM - 03:05 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Community Talk",
+                            "Speaker": "<br/>Kushal Das, <b>PSF</b> <br/> Mario Behling, <b>FOSSASIA</b>",
                             "Hall": "Main Hall",
                             "Url": "#"
                         },
                         {
                             "Title": "Sponsor Talk",
-                            "Speaker": "TBD",
+                            "Speaker": "Indeed",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Deploying a Python web app onto a Kubernetes Cluster",
+                            "Speaker": "Tarun Pothulapati",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/deploying-a-python-web-app-onto-a-kubernetes-cluster~bqo7e/"
                         }
                     ]
                 },
@@ -237,22 +237,22 @@
                     "Time": "03:10 PM - 03:40 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Using NLP to demystify 'Terms and Conditions' and summarize the contents",
+                            "Speaker": "Aroma Rodrigues",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/using-nlp-to-demystify-terms-and-conditions-and-summarize-the-contents~b2Aza/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Processing videos effectively - Piping the Parallelism out of Python",
+                            "Speaker": "R S Nikhil Krishna and Lokesh Kumar T",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/processing-videos-effectively-piping-the-parallelism-out-of-python~ejkva/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Handling DASH streams - Generation, Consumption & Clipping",
+                            "Speaker": "Arnav",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/handling-dash-streams-generation-consumption-clipping~dwv1b/"
                         }
                     ]
                 },
@@ -316,22 +316,22 @@
                     "Time": "11:20 AM - 11:50 AM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Testing micro-services made easy",
+                            "Speaker": "Devi A S L",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/testing-micro-services-made-easy~axm3b/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "The art of effective visualization of multi-dimensional data - A hands-on approach",
+                            "Speaker": "Dipanjan Sarkar",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/the-art-of-effective-visualization-of-multi-dimensional-data-a-hands-on-approach~ep6Vb/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Adventures in iterations",
+                            "Speaker": "Vikrant Patil",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/adventures-in-iterations~bYNMd/"
                         }
                     ]
                 },
@@ -339,22 +339,22 @@
                     "Time": "11:55 AM - 12:25 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Django on day 500",
+                            "Speaker": "Amit Singh Sethi ",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/django-on-day-500~dyDEb/"
                         },
                         {
-                            "Title": "Sponsor Talk",
-                            "Speaker": "TBD",
+                            "Title": "Sponsor Talk - AQR<br/> Quant De-Mystified",
+                            "Speaker": "Navraj Bhardwaj",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Learn Guitar Via Python Programming (MIDI Parsing)",
+                            "Speaker": "Rishabh Shah and Srinivas Kalyani",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/learn-guitar-via-python-programming-midi-parsing~bDAyd/"
                         }
                     ]
                 },
@@ -362,22 +362,22 @@
                     "Time": "12:30 PM - 01:00 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Cleaning data with Python",
+                            "Speaker": "Anand S",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/cleaning-data-with-python~azzma/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "What you need to know about data classes in Python 3.7",
+                            "Speaker": "Sasidhar Donaparthi ",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/what-you-need-to-know-about-data-classes-in-python-37~dRrEd/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Optimizations in Web Development: Journey from a college project to a professional product",
+                            "Speaker": "Megha Sharma",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/optimizations-in-web-development-journey-from-a-college-project-to-a-professional-product~dPp4d/"
                         }
                     ]
                 },
@@ -391,22 +391,22 @@
                     "Time": "02:00 PM - 02:30 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Using Jupyter to Empower the Less Technical",
+                            "Speaker": "Marc Udoff and Sriram Nagarajan",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/using-jupyter-to-empower-the-less-technical~e5r8a/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Building better Python microservices using GRPC",
+                            "Speaker": "Narendran R",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/building-better-python-microservices-using-grpc~e9jJa/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Bayesian A/B testing using Python",
+                            "Speaker": "Vaibhav Pawar ",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/bayesian-ab-testing-using-python~bmP9a/"
                         }
                     ]
                 },
@@ -414,22 +414,22 @@
                     "Time": "02:35 PM - 03:05 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Executing scripts in a few milliseconds with MicroPython",
+                            "Speaker": "Marwan Al-Sabbagh",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/executing-scripts-in-a-few-milliseconds-with-micropython~e1DVd/"
                         },
                         {
-                            "Title": "Sponsor Talk",
-                            "Speaker": "TBD",
+                            "Title": "Understanding Caching in Python",
+                            "Speaker": "Chirag Shah",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/understanding-caching-in-python~aQm9a/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Alexa enabled smart home programming with Python",
+                            "Speaker": "Sonal Raj ",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/alexa-enabled-smart-home-programming-with-python~dy5nd/"
                         }
                     ]
                 },
@@ -437,22 +437,22 @@
                     "Time": "03:10 PM - 03:40 PM",
                     "Tracks": [
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Experience with Python type hints",
+                            "Speaker": "Kracekumar Ramaraju",
                             "Hall": "Main Hall",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/experience-with-python-type-hints~dwl1e/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Amazing world of animation - powered by python",
+                            "Speaker": "Sreenivas Alapati",
                             "Hall": "Hall 1",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/amazing-world-of-animation-powered-by-python~dLDrd/"
                         },
                         {
-                            "Title": "TBD",
-                            "Speaker": "TBD",
+                            "Title": "Automating testbed experiments, data collection and visualization with Python",
+                            "Speaker": "Sunit Kumar Nandi ",
                             "Hall": "Hall 2",
-                            "Url": "#"
+                            "Url": "https://in.pycon.org/cfp/2018/proposals/automating-testbed-experiments-data-collection-and-visualization-with-python~bo0Xd/"
                         }
                     ]
                 },
