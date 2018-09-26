@@ -67,6 +67,12 @@
             "img":"img/sponsors/zaubacorp.png",
             "link": "https://zauba.company/",
             "class": "zaubacorp"
+        },
+        {
+            "alt-text":"Google",
+            "img":"img/sponsors/google_developers.png",
+            "link": "https://developers.google.com/",
+            "class": "google"
         }
     ],
     "Silver":[
@@ -86,7 +92,7 @@
     	    "alt-text":"DBS",
     	    "img":"img/sponsors/DBS_Logo.png",
     	    "link": "https://www.dbs.com/asia-hub-2/index.html",
-    	    "class": "silver"
+    	    "class": "dbs"
     	}
     ],
     "Associate":[
