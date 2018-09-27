@@ -89,7 +89,7 @@
                     "Tracks": [
                         {
                             "Title": "Opening Address",
-                            "Speaker": "TBD",
+                            "Speaker": "<br/>Manivannan Elangovan, Chair - PyCon India 2018",
                             "Hall": "Main Hall",
                             "Url": "#"
                         }
@@ -220,8 +220,8 @@
                             "Url": "#"
                         },
                         {
-                            "Title": "Sponsor Talk",
-                            "Speaker": "Indeed",
+                            "Title": "Sponsor Talk - Indeed",
+                            "Speaker": "Subhas KS and Yosef Wehby",
                             "Hall": "Hall 1",
                             "Url": "#"
                         },
@@ -489,7 +489,7 @@
                     "Tracks": [
                         {
                             "Title": "Closing Address",
-                            "Speaker": "TBD",
+                            "Speaker": "<br/>Manivannan Elangovan, Chair - PyCon India 2018",
                             "Hall": "Main Hall",
                             "Url": "#"
                         }

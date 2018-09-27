@@ -23,7 +23,7 @@ createScheduleForADay = function (item) {
     var dayContent = '';
     for(i = 0; i < item.length; i ++){
         if(item[i].Tracks.length == 1 &&
-            (["CONFERENCE REGISTRATION", "WORKSHOP REGISTRATION", "LUNCH", "Morning Tea Break", "Evening Tea Break"].indexOf(item[i].Tracks[0].Title) >= 0)){
+            (["CONFERENCE REGISTRATION", "WORKSHOP REGISTRATION", "LUNCH", "Morning Tea Break", "Evening Tea Break", "Lightning Talks"].indexOf(item[i].Tracks[0].Title) >= 0)){
             dayContent += createLunchBreakfastRow(item[i]);
         }
         else {
@@ -44,11 +44,15 @@ createLunchBreakfastRow = function(item) {
                     "</span>"+
                   "</div>"+
                   "<div class='col-xs-12 col-lg-9 text-center schedule-column'>"+
-                      "<span class='center-align capitalize'>"+
+                      "<span class='capitalize'>"+
                         item.Tracks[0].Title +
-                      "</span>"+
-                  "</div>"+
-                  "</div>";
+                      "</span>"
+
+    if (item.Tracks[0].Hall != undefined) {
+        rowContent += "<br><span class='badge'>"+item.Tracks[0].Hall+"</span>";
+    }
+    
+    rowContent +=  "</div></div>";
     return rowContent;
 }
 
