@@ -93,7 +93,13 @@
     	    "img":"img/sponsors/DBS_Logo.png",
     	    "link": "https://www.dbs.com/asia-hub-2/index.html",
     	    "class": "dbs"
-    	}
+    	},
+        {
+            "alt-text":"Grofers",
+            "img":"img/sponsors/grofers.png",
+            "link": "http://www.grofers.com/",
+            "class": "grofers"
+        }
     ],
     "Associate":[
         {
@@ -113,6 +119,12 @@
             "img": "img/sponsors/atonarp.png",
             "link": "https://www.atonarp.com/",
             "class": "associate"
+        },
+        {
+            "alt-text": "Elucidata",
+            "img": "img/sponsors/Elucidata.svg",
+            "link": "http://elucidata.io/",
+            "class": "elucidata"
         }
     ]
 }
