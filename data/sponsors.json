@@ -63,10 +63,10 @@
             "class": "gold"
         },
         {
-            "alt-text":"Zaubacorp",
-            "img":"img/sponsors/zaubacorp.png",
+            "alt-text":"Zauba Cloud",
+            "img":"img/sponsors/zaubacloud.png",
             "link": "https://zauba.company/",
-            "class": "zaubacorp"
+            "class": "gold"
         },
         {
             "alt-text":"Google",
@@ -88,18 +88,18 @@
     	    "link": "http://www.zeomega.com/",
     	    "class": "zeomega"
     	},
+        {
+            "alt-text":"Grofers",
+            "img":"img/sponsors/grofers.png",
+            "link": "http://www.grofers.com/",
+            "class": "silver"
+        },
     	{
     	    "alt-text":"DBS",
     	    "img":"img/sponsors/DBS_Logo.png",
     	    "link": "https://www.dbs.com/asia-hub-2/index.html",
     	    "class": "dbs"
-    	},
-        {
-            "alt-text":"Grofers",
-            "img":"img/sponsors/grofers.png",
-            "link": "http://www.grofers.com/",
-            "class": "grofers"
-        }
+    	}
     ],
     "Associate":[
         {
