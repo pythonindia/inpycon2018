@@ -1351,7 +1351,8 @@ ul.faq-answer li a:hover {
       max-height: 80px;
     }
     .google {
-        margin-top: 40px;
+        margin-top: 25px;
+        max-height: 80px;
     }
     .silver {
         max-height: 70px;
@@ -1362,9 +1363,6 @@ ul.faq-answer li a:hover {
     .dbs {
         margin-top: 10px;
         max-height: 60px;
-    }
-    .grofers {
-        max-height: 80px;
     }
     .associate {
         margin-top: 20px;
