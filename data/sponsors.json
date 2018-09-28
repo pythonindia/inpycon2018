@@ -125,6 +125,12 @@
             "img": "img/sponsors/Elucidata.svg",
             "link": "http://elucidata.io/",
             "class": "elucidata"
+        },
+        {
+            "alt-text": "Innovaccer",
+            "img": "img/sponsors/logo-innovaccer-full.png",
+            "link": "https://innovaccer.com/",
+            "class": "innovaccer"
         }
     ]
 }
