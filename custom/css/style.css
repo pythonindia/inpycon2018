@@ -1375,6 +1375,9 @@ ul.faq-answer li a:hover {
         margin-top: 10px;
         max-height: 35px;
     }
+    .jetbrains {
+        max-height: 100px;
+    }
 }
 
 .pycon-card .more-button {

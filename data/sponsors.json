@@ -126,5 +126,13 @@
             "link": "https://innovaccer.com/",
             "class": "innovaccer"
         }
+    ],
+    "In-Kind": [
+        {
+            "alt-text": "Jetbrains",
+            "img": "img/sponsors/jetbrains.svg",
+            "link": "https://www.jetbrains.com/",
+            "class": "jetbrains"
+        }
     ]
 }
