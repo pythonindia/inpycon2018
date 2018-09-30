@@ -9,7 +9,7 @@ createScheduleBlock = function(data){
         var tab = 1;
         $.each(data, function(key, value) {
             for(var i = 0; i < value.length; i++) {
-                    scheduleContent += "<div class='panel-heading pycon2018_panel page table-responsive " + ( tab ==1 ? "" : "hide" ) + "' data-page='tab"+tab+"'>"
+                    scheduleContent += "<div class='panel-heading pycon2018_panel page table-responsive " + ( tab == 1 ? "" : "hide" ) + "' data-page='tab"+tab+"'>"
                     scheduleContent += createScheduleForADay(value[i].TimeTable);
                     scheduleContent += "</div>"
                     tab += 1;

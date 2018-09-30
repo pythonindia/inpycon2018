@@ -455,13 +455,11 @@ h6 {
 }
 
 .pycon2018_panel1 .nav-tabs > li a {
-    padding: 10px 70px;
     margin: 0px 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 .pycon2018_panel .nav-tabs > li a {
-    padding: 10px 48px;
     margin: 0 30px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -992,7 +990,6 @@ footer a:focus {
         margin: 0;
     }
     .pycon2018_panel1 .nav-tabs > li a {
-        padding: 10px 5px;
         margin: 0;
     }
 
