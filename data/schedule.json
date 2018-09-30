@@ -1,7 +1,7 @@
 {
     "Schedule": [
         {
-            "Date": "05-Oct-2018",
+            "Date": "05-Oct-2018 (Workshops)",
             "TimeTable": [
                 {
                     "Time": "08:00 AM - 09:00 AM",
@@ -69,6 +69,51 @@
                             "Title": "Scaling Python up and out with Numba and Dask",
                             "Speaker": "Travis Oliphant",
                             "Hall": "Hall 4",
+                            "Url": "#"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Date": "05-Oct-2018 (Sponsor Workshops)",
+            "TimeTable": [
+                {
+                    "Time": "08:00 AM - 09:00 AM",
+                    "Tracks": [
+                        { "Title": "WORKSHOP REGISTRATION"}
+                    ]
+                },
+                {
+                    "Time": "10:00 AM - 01:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Understanding NLP - What's the feeling ?",
+                            "Speaker": "Lakshya Sivaramakrishnan (Google)",
+                            "Hall": "Hall 5",
+                            "Url": "#"
+                        }
+                    ]
+                },
+                {
+                    "Time": "01:00 PM - 02:00 PM",
+                    "Tracks": [
+                        { "Title": "LUNCH"}
+                    ]
+                },
+                {
+                    "Time": "02:00 PM - 05:00 PM",
+                    "Tracks": [
+                        {
+                            "Title": "Programming a Quantum Computer using Cirq",
+                            "Speaker": "Vamsi Krishna Devabathini (Google)",
+                            "Hall": "Hall 5",
+                            "Url": "#"
+                        },
+                        {
+                            "Title": "Python ML On the Cloud",
+                            "Speaker": "Krishna Balaga (IBM)",
+                            "Hall": "Hall 6",
                             "Url": "#"
                         }
                     ]
