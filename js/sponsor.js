@@ -10,7 +10,7 @@ constructSponsorBlock = function(data){
 
         $.each(data, function(key, value) {
             sponsorContent += "<h3 class='text-center'>" + key + "</h3>";
-            var cellsEachRow = (["platinum", "silver"].indexOf(key.toLowerCase()) >= 0 ? 4 : 3);
+            var cellsEachRow = (["platinum"].indexOf(key.toLowerCase()) >= 0 ? 4 : 3);
             for(var i = 0; i < value.length; i += cellsEachRow) {
                 sponsorGroups = value.slice(i, i+cellsEachRow);
                 sponsorContent += "<div class='row'>"
@@ -39,7 +39,7 @@ buildSponsorRow = function(items, category) {
     }
 
     for (var i = 0; i < totalItems; i++) {
-        rowContent += "<div class='" + (i == 0 ? offset : "")  + (["platinum", "silver"].indexOf(category.toLowerCase()) >= 0 ? "col-md-3" : "col-md-4") + " sponsor-padding'><a href='" + items[i]["link"] +
+        rowContent += "<div class='" + (i == 0 ? offset : "")  + (["platinum"].indexOf(category.toLowerCase()) >= 0 ? "col-md-3" : "col-md-4") + " sponsor-padding'><a href='" + items[i]["link"] +
             "' target='_blank'><div class='img-container'><img src='" + items[i]["img"] + "' alt='" + items[i]["alt-text"] +
             "' class='img-responsive sponsor center-block " + items[i]["class"] +"'></a></div></div>";
     }
