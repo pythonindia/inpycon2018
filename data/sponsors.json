@@ -4,25 +4,29 @@
             "alt-text":"D. E. Shaw India",
             "img":"img/sponsors/DESCO_Logo_2c.jpg",
             "link": "http://www.deshawindia.com/",
-            "class": "platinum"
+            "class": "platinum",
+            "description": "AQR is a global investment management firm dedicated to delivering results for our clients. At the nexus of economics, behavioral finance, data and technology, AQR’s evolution over two decades has been a continuous exploration of what drives markets and how it can be applied to client portfolios. Our culture of intellectual curiosity compels us to challenge the status quo, disrupt long-held beliefs and uncover new insights."
         },
     	{
             "alt-text":"Go-Jek",
             "img":"img/sponsors/go-jek.png",
             "link": "https://www.gojek.io/",
-            "class": "platinum"
+            "class": "platinum",
+            "description": "GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire."
     	},
-        {
-            "alt-text":"AQR",
-            "img":"img/sponsors/aqr.jpg",
-            "link": "https://www.aqr.com/",
-            "class": "aqr"
-        },
         {
             "alt-text":"Indeed",
             "img":"img/sponsors/indeed.png",
             "link": "https://www.indeed.jobs/career/JobListHyderabad",
-            "class": "platinum"
+            "class": "platinum",
+            "description": "At Indeed, we help people get jobs, but it's more than just our mission. It’s a promise that extends to all our employees, as well as job seekers and employers. As the world’s #1 job site, we take pride in helping people get to where they want to be in their careers. Whether you’re still in school or looking for your next opportunity to make an impact, Indeed is dedicated to helping people explore their passions while giving them the tools to succeed with Indeed and beyond."
+        },
+        {
+            "alt-text":"AQR",
+            "img":"img/sponsors/aqr.jpg",
+            "link": "https://www.aqr.com/",
+            "class": "aqr",
+            "description": "D. E. SHAW INDIA PRIVATE LIMITED ('DESIS') is a part of the D. E. Shaw group, a global investment and technology development firm founded in 1988 with more than $50 billion in investment capital as of April 1, 2018, and offices in North America, Europe, and Asia. The firm has earned an international reputation for successful investing based on innovation, careful risk management, and the quality and depth of their staff. The firm has a significant presence in the world's capital markets, investing in a wide range of companies and financial instruments in both developed and developing economies."
         }
     ],
     "Gold":[
@@ -30,49 +34,57 @@
             "alt-text":"Pramati Technologies",
             "img":"img/sponsors/Pramati.png",
             "link": "https://www.pramati.com/",
-            "class": "gold"
+            "class": "gold",
+            "description": "Pramati has a two-decade track record of helping enterprises become agile by leveraging its world-class software products and platform engineering capabilities. Taking a whole brained approach to engineering, coupled with an entrepreneurial culture, Pramati constantly helps its customers challenge status quo. But Pramati is different because of its people. It’s values, passion, and way of doing things are the intangibles that makes the difference to customers and communities it serves. A unique technical culture and an innovative business model helps to deliver results for each customer’s unique reality. More than 100 global product companies and F500 enterprises work with Pramati. Pramati has offices in Mountain View-CA, Hyderabad, Chennai and Bengaluru-India and owns the brands WaveMaker, SpotCues, Reve Marketing, and Imaginea."
         },
         {
             "alt-text":"Soroco",
             "img":"img/sponsors/soroco.png",
             "link": "http://www.soroco.com/",
-            "class": "soroco"
+            "class": "soroco",
+            "description": "Soroco is a next-gen tech company pioneering cutting-edge business automation. The 4- year-old company with its global network of offices in Boston, London, Seattle and Bangalore has sparked off a revolution in the automation industry by creating innovative solutions for hard problems."
         },
         {
             "alt-text":"LiveHealth",
             "img":"img/sponsors/LiveHealth_logo.png",
             "link": "https://livehealth.in",
-            "class": "gold"
+            "class": "gold",
+            "description": "LiveHealth is a next generation cloud based and mobile ready MIS for Diagnostic Centre which helps them manage their Point of Sales, MIS, Medical Instruments, EMR & reduce human error."
         },
         {
             "alt-text":"IBM",
             "img":"img/sponsors/ibm.png",
             "link": "http://www.ibm.com/in",
-            "class": "gold"
+            "class": "gold",
+            "description": "IBM has been present in India since 1951. Since inception, IBM India has expanded its operations with regional headquarters in Bangalore and offices in over 20 cities. These include regional offices in New Delhi, Mumbai, Kolkata and Chennai. Today, IBM India has established itself as one of the leaders in the Indian Information Technology Industry."
         },
         {
             "alt-text":"VMware",
             "img":"img/sponsors/VMware_logo.jpg",
             "link": "https://www.vmware.com/in/company.html",
-            "class": "vmware"
+            "class": "vmware",
+            "description": "VMware is a global leader in cloud infrastructure and business mobility. VMware accelerates customers’ digital transformation journey by enabling enterprises to master a software-defined approach to business and IT. With VMware solutions, organizations are building extraordinary experiences by mobilizing everything. Our customers are responding faster to opportunities with modern data and apps hosted across hybrid clouds, and safeguarding customer trust with a defense-in-depth approach to cybersecurity."
         },
         {
             "alt-text":"Corteva",
             "img":"img/sponsors/corteva.png",
             "link": "https://www.corteva.com/",
-            "class": "gold"
+            "class": "gold",
+            "description": "Corteva Agriscience™, the agriculture division of DowDuPont™, is the only major agriscience company completely dedicated to agriculture. By combining the strengths of DuPont Pioneer, DuPont Crop Protection and Dow AgroSciences, we've harnessed agriculture's brightest minds and expertise gained over two centuries of scientific achievement."
         },
         {
             "alt-text":"Zauba Cloud",
             "img":"img/sponsors/zaubacloud.png",
             "link": "https://zauba.company/",
-            "class": "gold"
+            "class": "gold",
+            "description": "Zauba Cloud is a next generation cloud computing platform that accelerates product development, reduces cost and increases overall performance and reliability of assets on cloud"
         },
         {
             "alt-text":"Google",
             "img":"img/sponsors/google_developers.png",
             "link": "https://developers.google.com/",
-            "class": "google"
+            "class": "google",
+            "description": "The relentless search for better answers continues to be at the core of everything we do. Today, with more than 60,000 employees in 50 different countries, Google makes hundreds of products used by billions of people across the globe, from YouTube and Android to Smartbox and, of course, Google Search. Although we’ve ditched the Lego servers and added just a few more company dogs, our passion for building technology for everyone has stayed with us — from the dorm room, to the garage, and to this very day."
         }
     ],
     "Silver":[
@@ -80,19 +92,22 @@
     	    "alt-text":"FOSSEE",
     	    "img":"img/sponsors/fossee.png",
     	    "link": "https://fossee.in/",
-    	    "class": "silver"
+    	    "class": "silver",
+            "description": "FOSSEE(Free and Open Source Software in Education) project promotes the use of FOSS tools to improve the quality of education in our country. We aim to reduce dependency on proprietary software in educational institutions. We encourage the use of FOSS tools through various activities such as Textbook Companions, Lab Migration, Workshops, Conferences, Forums, Software Development and Others. We also develop and upgrade existing tools to meet the requirements in academia and research."
     	},
     	{
     	    "alt-text":"ZeOmega",
     	    "img":"img/sponsors/zeomega.png",
     	    "link": "http://www.zeomega.com/",
-    	    "class": "zeomega"
+    	    "class": "zeomega",
+            "description": "ZeOmega is the premier enabler of value-based care. We provide technical solutions to facilitate collaboration among healthcare stakeholders. Jiva™, our Population Health Management Solution, helps healthcare organizations achieve Triple Aim goals."
     	},
     	{
     	    "alt-text":"DBS",
     	    "img":"img/sponsors/DBS_Logo.png",
     	    "link": "https://www.dbs.com/asia-hub-2/index.html",
-    	    "class": "dbs"
+    	    "class": "dbs",
+          "description": "info here"
     	}
     ],
     "Associate":[
@@ -100,31 +115,36 @@
             "alt-text":"Reckonsys",
             "img":"img/sponsors/reckonsys.png",
             "link": "https://www.reckonsys.com/",
-            "class": "associate"
+            "class": "associate",
+            "description": "Reckonsys is a boutique software development company providing help to Startups/SME's who wish to shape their ideas into well-established products through disciplined and structured product development approach. We, at Reckonsys, help these organizations through the entire process of Product development, right from selecting the perfect tech stack to UI/UX Design to developing product end-to-end and finally deploying to cloud platforms, like AWS or Digital Ocean, using our profound knowledge in DevOps. Our specializations include Web Applications, Native and Hybrid mobile applications and UI/UX design, mainly using Python."
         },
         {
             "alt-text": "Pipal Academy",
             "img": "img/sponsors/pipal.png",
             "link": "https://pipal.in",
-            "class": "pipal"
+            "class": "pipal",
+            "description": "Pipal Academy is a collective of experienced technologists, who care deeply about the art of software development. They offer in-depth courses on niche technical topics. We regularly conduct public workshops and also offer on site corporate trainings. Our courses are targeted at professional software developers and we make sure they are hands-on and interactive. Very often the participants finish our courses with lot of excitement and joy of learning."
         },
         {
             "alt-text": "Atonarp",
             "img": "img/sponsors/atonarp.png",
             "link": "https://www.atonarp.com/",
-            "class": "associate"
+            "class": "associate",
+            "description": "At Atonarp, we are revolutionizing how we sense, collect, process and interpret data at the molecular level. Our teams work out of Tokyo, California and Bengaluru with a focus on scientific technology platforms for molecular analysis. "
         },
         {
             "alt-text": "Elucidata",
             "img": "img/sponsors/Elucidata.svg",
             "link": "http://elucidata.io/",
-            "class": "elucidata"
+            "class": "elucidata",
+            "description": "info here"
         },
         {
             "alt-text": "Innovaccer",
             "img": "img/sponsors/logo-innovaccer-full.png",
             "link": "https://innovaccer.com/",
-            "class": "innovaccer"
+            "class": "innovaccer",
+            "description": "Innovaccer Inc. is a leading healthcare data platform company focused on delivering a more efficient and effective healthcare through the use of pioneering analytics and transparent, clean, and accurate data. Innovaccer’s aim is to simplify complex data from all points of care, streamline the information, and help organizations make powerful decisions and realize strategic goals based on key insights and predictions from their data"
         }
     ],
     "In-Kind": [
