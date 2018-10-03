@@ -1374,6 +1374,14 @@ ul.faq-answer li a:hover {
     .jetbrains {
         max-height: 100px;
     }
+    .hackerrank {
+        margin-top: 15px;
+        max-height: 50px;
+    }
+    .manning {
+        margin-top: 20px;
+        max-height: 40px;
+    }
 }
 
 .pycon-card .more-button {

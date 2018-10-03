@@ -161,6 +161,13 @@
          "link": "https://www.hackerrank.com/",
          "class": "hackerrank",
          "description": "HackerRank is a technology hiring platform that is the standard for assessing developer skills for over 1,000 companies around the world. By enabling tech recruiters and hiring managers to objectively evaluate talent at every stage of the recruiting process, HackerRank helps companies hire skilled developers and innovate faster."
-     }
+        },
+        {
+         "alt-text": "Manning",
+         "img": "img/sponsors/Manninglogo_outline.png",
+         "link": "https://www.manning.com/",
+         "class": "manning",
+         "description": "Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders."
+        }
     ]
 }
