@@ -5,29 +5,29 @@
             "img":"img/sponsors/DESCO_Logo_2c.jpg",
             "link": "http://www.deshawindia.com/",
             "class": "platinum",
-            "description": "AQR is a global investment management firm dedicated to delivering results for our clients. At the nexus of economics, behavioral finance, data and technology, AQR’s evolution over two decades has been a continuous exploration of what drives markets and how it can be applied to client portfolios. Our culture of intellectual curiosity compels us to challenge the status quo, disrupt long-held beliefs and uncover new insights."
-        },
-    	{
+            "description": "D. E. SHAW INDIA PRIVATE LIMITED ('DESIS') is a part of the D. E. Shaw group, a global investment and technology development firm founded in 1988 with more than $50 billion in investment capital as of April 1, 2018, and offices in North America, Europe, and Asia. The firm has earned an international reputation for successful investing based on innovation, careful risk management, and the quality and depth of their staff. The firm has a significant presence in the world's capital markets, investing in a wide range of companies and financial instruments in both developed and developing economies."
+         },
+         {
             "alt-text":"Go-Jek",
             "img":"img/sponsors/go-jek.png",
             "link": "https://www.gojek.io/",
             "class": "platinum",
             "description": "GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire."
-    	},
-        {
+         },
+         {
             "alt-text":"Indeed",
             "img":"img/sponsors/indeed.png",
             "link": "https://www.indeed.jobs/career/JobListHyderabad",
             "class": "platinum",
             "description": "At Indeed, we help people get jobs, but it's more than just our mission. It’s a promise that extends to all our employees, as well as job seekers and employers. As the world’s #1 job site, we take pride in helping people get to where they want to be in their careers. Whether you’re still in school or looking for your next opportunity to make an impact, Indeed is dedicated to helping people explore their passions while giving them the tools to succeed with Indeed and beyond."
-        },
-        {
+         },
+         {
             "alt-text":"AQR",
             "img":"img/sponsors/aqr.jpg",
             "link": "https://www.aqr.com/",
             "class": "aqr",
-            "description": "D. E. SHAW INDIA PRIVATE LIMITED ('DESIS') is a part of the D. E. Shaw group, a global investment and technology development firm founded in 1988 with more than $50 billion in investment capital as of April 1, 2018, and offices in North America, Europe, and Asia. The firm has earned an international reputation for successful investing based on innovation, careful risk management, and the quality and depth of their staff. The firm has a significant presence in the world's capital markets, investing in a wide range of companies and financial instruments in both developed and developing economies."
-        }
+            "description": "AQR is a global investment management firm dedicated to delivering results for our clients. At the nexus of economics, behavioral finance, data and technology, AQR’s evolution over two decades has been a continuous exploration of what drives markets and how it can be applied to client portfolios. Our culture of intellectual curiosity compels us to challenge the status quo, disrupt long-held beliefs and uncover new insights."
+         }
     ],
     "Gold":[
         {
