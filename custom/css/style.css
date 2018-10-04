@@ -1376,6 +1376,13 @@ ul.faq-answer li a:hover {
     }
 }
 
+.workshops:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin: -50px 0 0;
+}
+
 .pycon-card .more-button {
     position: absolute;
     bottom: 10px;

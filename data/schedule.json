@@ -57,7 +57,7 @@
                             "Title": "Jupyter hub and Binder",
                             "Speaker": "Carol Willing",
                             "Hall": "Hall 2",
-                            "Url": "https:/in.pycon.org/2018/workshop-prerequisites.html"
+                            "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#keynote1"
                         },
                         {
                             "Title": "Designing RESTful APIs",
@@ -91,7 +91,7 @@
                             "Title": "Understanding NLP - What's the feeling ?",
                             "Speaker": "Lakshya Sivaramakrishnan (Google)",
                             "Hall": "Hall 5",
-                            "Url": "https:/in.pycon.org/2018/workshop-prerequisites.html"
+                            "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#sponsor1"
                         }
                     ]
                 },
@@ -108,13 +108,13 @@
                             "Title": "Programming a Quantum Computer using Cirq",
                             "Speaker": "Vamsi Krishna Devabathini (Google)",
                             "Hall": "Hall 5",
-                            "Url": "https:/in.pycon.org/2018/workshop-prerequisites.html"
+                            "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#sponsor2"
                         },
                         {
                             "Title": "Python ML On the Cloud",
                             "Speaker": "Krishna Balaga (IBM)",
                             "Hall": "Hall 6",
-                            "Url": "https:/in.pycon.org/2018/workshop-prerequisites.html"
+                            "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#sponsor3"
                         }
                     ]
                 }
