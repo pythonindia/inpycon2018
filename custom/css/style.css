@@ -1324,6 +1324,47 @@ ul.faq-answer li a:hover {
     font-size:40px;
 }
 
+@media screen and (max-width: 500px){
+    .aqr {
+        max-height: 100px;
+    }
+    .platinum {
+        margin-top: 15px;
+        max-height: 60px;
+    }
+    .gold {
+        margin-top:: 15px;
+        max-height: 70px;
+    }
+    .soroco {
+        max-height: 110px;
+    }
+    .vmware {
+        max-height: 80px;
+    }
+    .silver {
+        max-height: 80px;
+    }
+    .dbs {
+        max-height: 60px;
+    }
+    .associate {
+        max-height: 60px;
+    }
+    .pipal {
+        max-height: 120px;
+    }
+    .elucidata {
+        max-height: 90px;
+    }
+    .innovaccer {
+        max-height: 40px;
+    }
+    .jetbrains {
+        max-height: 120px;
+    }
+}
+
 @media screen and (min-width: 900px) {
     .platinum {
         margin-top: 15px;
