@@ -1348,13 +1348,14 @@ ul.faq-answer li a:hover {
         max-height: 80px;
     }
     .silver {
+        margin-top: 15px;
         max-height: 70px;
     }
     .zeomega {
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .dbs {
-        margin-top: 10px;
+        margin-top: 20px;
         max-height: 60px;
     }
     .associate {

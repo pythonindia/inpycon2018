@@ -108,6 +108,13 @@
     	    "link": "https://www.dbs.com/asia-hub-2/index.html",
     	    "class": "dbs",
           "description": "info here"
+    	},
+    	{
+    	    "alt-text":"Talent Sprint",
+    	    "img":"img/sponsors/talent-sprint.png",
+    	    "link": "https://www.talentsprint.com/",
+    	    "class": "talent",
+          "description": "info here"
     	}
     ],
     "Associate":[
