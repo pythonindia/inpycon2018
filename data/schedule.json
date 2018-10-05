@@ -15,25 +15,25 @@
                         {
                             "Title": "Exploring PyTorch for AI assistance in Medical Imaging",
                             "Speaker": "Abhishek Kumar",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/exploring-pytorch-for-ai-assistance-in-medical-imaging~bqXpa/"
                         },
                         {
                             "Title": "Decoding Bollywood with Python and data science",
                             "Speaker": "Marc Garcia",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/decoding-bollywood-with-python-and-data-science~eEyWe/"
                         },
                         {
                             "Title": "Web UI automation using Selenium",
                             "Speaker": "Bhoomika Agarwal",
-                            "Hall": "Hall 3",
+                            "Hall": "Track 3",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/web-ui-automation-using-selenium~ern4e/"
                         },
                         {
                             "Title": "Advanced Object Oriented Programming",
                             "Speaker": "Vishnu Kiran",
-                            "Hall": "Hall 4",
+                            "Hall": "Track 4",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/advanced-object-oriented-programming~e7MQb/"
                         }
                     ]
@@ -50,25 +50,25 @@
                         {
                             "Title": "Free and Open Source libraries of Python for Geo spatial analysis",
                             "Speaker": "Nishad KA",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/free-and-open-source-libraries-of-python-for-geo-spatial-analysis-and-visualisationmaps-and-satellite-imageries~aQL5e/"
                         },
                         {
                             "Title": "Jupyter hub and Binder",
                             "Speaker": "Carol Willing",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#keynote1"
                         },
                         {
                             "Title": "Designing RESTful APIs",
                             "Speaker": "Anand Chitipothu",
-                            "Hall": "Hall 3",
+                            "Hall": "Track 3",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/designing-restful-apis~aAx3e/"
                         },
                         {
                             "Title": "Scaling Python up and out with Numba and Dask",
                             "Speaker": "Travis Oliphant",
-                            "Hall": "Hall 4",
+                            "Hall": "Track 4",
                             "Url": "#"
                         }
                     ]
@@ -90,7 +90,7 @@
                         {
                             "Title": "Understanding NLP - What's the feeling ?",
                             "Speaker": "Lakshya Sivaramakrishnan (Google)",
-                            "Hall": "Hall 5",
+                            "Hall": "Track 5",
                             "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#sponsor1"
                         }
                     ]
@@ -107,13 +107,13 @@
                         {
                             "Title": "Programming a Quantum Computer using Cirq",
                             "Speaker": "Vamsi Krishna Devabathini (Google)",
-                            "Hall": "Hall 5",
+                            "Hall": "Track 5",
                             "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#sponsor2"
                         },
                         {
                             "Title": "Python ML On the Cloud",
                             "Speaker": "Krishna Balaga (IBM)",
-                            "Hall": "Hall 6",
+                            "Hall": "Track 6",
                             "Url": "https://in.pycon.org/2018/workshop-prerequisites.html#sponsor3"
                         }
                     ]
@@ -169,13 +169,13 @@
                         {
                             "Title": "Large scale web crawling using Python",
                             "Speaker": "Anand B Pillai and Noufal Ibrahim",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/large-scale-web-crawling-using-python~bkl6d/"
                         },
                         {
                             "Title": "Creating 3rd generation Web APIs using Hydra and Hydrus",
                             "Speaker": "Akshay Dahiya",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/creating-3rd-generation-web-apis-using-hydra-and-hydrus~dBpYa/"
                         }
                     ]
@@ -192,13 +192,13 @@
                         {
                             "Title": "Sponsor Talk - DEShaw<br/> Pyflyby: Automatic imports for Python",
                             "Speaker": "Karl Chen",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "#"
                         },
                         {
                             "Title": "Language Model (Text Analysis) using Python from scratch",
                             "Speaker": "Divya Choudhary",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/language-model-text-analysis-using-python-from-scratch~bqm0b/"
                         }
                     ]
@@ -215,13 +215,13 @@
                         {
                             "Title": "Managing flood risk in this modern age - An Introduction to Geospatial Analytics with Python",
                             "Speaker": "Arijit Saha and Atul Singh",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/managing-flood-risk-in-this-modern-age-an-introduction-to-geospatial-analytics-with-python~avz0a/"
                         },
                         {
                             "Title": "Speed up your Python modules using Rust",
                             "Speaker": "Abhiram Ravikumar",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/speed-up-your-python-modules-using-rust~elNrb/"
                         }
                     ]
@@ -244,13 +244,13 @@
                         {
                             "Title": "Satellite Image Processing with Python",
                             "Speaker": "Shubham Sharma",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/satellite-image-processing-with-python~dJKKe/"
                         },
                         {
                             "Title": "Metaclasses and decorators: a match made in space",
                             "Speaker": "Ishan Srivastava",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/metaclasses-and-decorators-a-match-made-in-space~ervpe/"
                         }
                     ]
@@ -267,13 +267,13 @@
                         {
                             "Title": "Sponsor Talk - Indeed",
                             "Speaker": "Subhas KS and Yosef Wehby",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "#"
                         },
                         {
                             "Title": "Deploying a Python web app onto a Kubernetes Cluster",
                             "Speaker": "Tarun Pothulapati",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/deploying-a-python-web-app-onto-a-kubernetes-cluster~bqo7e/"
                         }
                     ]
@@ -290,13 +290,13 @@
                         {
                             "Title": "Processing videos effectively - Piping the Parallelism out of Python",
                             "Speaker": "R S Nikhil Krishna and Lokesh Kumar T",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/processing-videos-effectively-piping-the-parallelism-out-of-python~ejkva/"
                         },
                         {
                             "Title": "Handling DASH streams - Generation, Consumption & Clipping",
                             "Speaker": "Arnav",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/handling-dash-streams-generation-consumption-clipping~dwv1b/"
                         }
                     ]
@@ -369,13 +369,13 @@
                         {
                             "Title": "The art of effective visualization of multi-dimensional data - A hands-on approach",
                             "Speaker": "Dipanjan Sarkar",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/the-art-of-effective-visualization-of-multi-dimensional-data-a-hands-on-approach~ep6Vb/"
                         },
                         {
                             "Title": "Adventures in iterations",
                             "Speaker": "Vikrant Patil",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/adventures-in-iterations~bYNMd/"
                         }
                     ]
@@ -392,13 +392,13 @@
                         {
                             "Title": "Sponsor Talk - AQR<br/> Quant De-Mystified",
                             "Speaker": "Navraj Bhardwaj",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "#"
                         },
                         {
                             "Title": "Learn Guitar Via Python Programming (MIDI Parsing)",
                             "Speaker": "Rishabh Shah and Srinivas Kalyani",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/learn-guitar-via-python-programming-midi-parsing~bDAyd/"
                         }
                     ]
@@ -415,13 +415,13 @@
                         {
                             "Title": "What you need to know about data classes in Python 3.7",
                             "Speaker": "Sasidhar Donaparthi ",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/what-you-need-to-know-about-data-classes-in-python-37~dRrEd/"
                         },
                         {
                             "Title": "Optimizations in Web Development: Journey from a college project to a professional product",
                             "Speaker": "Megha Sharma",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/optimizations-in-web-development-journey-from-a-college-project-to-a-professional-product~dPp4d/"
                         }
                     ]
@@ -444,13 +444,13 @@
                         {
                             "Title": "Building better Python microservices using GRPC",
                             "Speaker": "Narendran R",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/building-better-python-microservices-using-grpc~e9jJa/"
                         },
                         {
                             "Title": "Bayesian A/B testing using Python",
                             "Speaker": "Vaibhav Pawar ",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/bayesian-ab-testing-using-python~bmP9a/"
                         }
                     ]
@@ -467,13 +467,13 @@
                         {
                             "Title": "Understanding Caching in Python",
                             "Speaker": "Chirag Shah",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/understanding-caching-in-python~aQm9a/"
                         },
                         {
                             "Title": "Alexa enabled smart home programming with Python",
                             "Speaker": "Sonal Raj ",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/alexa-enabled-smart-home-programming-with-python~dy5nd/"
                         }
                     ]
@@ -490,13 +490,13 @@
                         {
                             "Title": "Amazing world of animation - powered by python",
                             "Speaker": "Sreenivas Alapati",
-                            "Hall": "Hall 1",
+                            "Hall": "Track 1",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/amazing-world-of-animation-powered-by-python~dLDrd/"
                         },
                         {
                             "Title": "Automating testbed experiments, data collection and visualization with Python",
                             "Speaker": "Sunit Kumar Nandi ",
-                            "Hall": "Hall 2",
+                            "Hall": "Track 2",
                             "Url": "https://in.pycon.org/cfp/2018/proposals/automating-testbed-experiments-data-collection-and-visualization-with-python~bo0Xd/"
                         }
                     ]
