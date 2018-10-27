@@ -144,7 +144,7 @@
             "img": "img/sponsors/Elucidata.svg",
             "link": "http://elucidata.io/",
             "class": "elucidata",
-            "description": "info here"
+            "description": "Elucidata build software packages, provide customized solutions, and analyze omics datasets to understand the molecular basis of cellular phenotypes."
         },
         {
             "alt-text": "Innovaccer",
@@ -160,7 +160,7 @@
             "img": "img/sponsors/jetbrains.svg",
             "link": "https://www.jetbrains.com/",
             "class": "jetbrains",
-            "description": "info here"
+            "description": "At JetBrains, code is our passion. For over 15 years we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover and create."
         },
         {
          "alt-text": "HackerRank",
